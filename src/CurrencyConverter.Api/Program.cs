@@ -11,7 +11,20 @@ using System.Threading.RateLimiting;
 
 using CurrencyConverter.Api.Middleware;
 
+var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
+
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy(name: MyAllowSpecificOrigins,
+                      policy  =>
+                      {
+                          policy.WithOrigins("http://localhost:5173")
+                              .AllowAnyHeader()
+                              .AllowAnyMethod();
+                      });
+});
 
 // Configure Serilog
 builder.Host.UseSerilog((ctx, lc) => lc
@@ -51,6 +64,8 @@ var app = builder.Build();
     {
         // Swagger not configured (Swashbuckle not referenced). Add if desired.
     }
+
+app.UseCors(MyAllowSpecificOrigins);
 
 app.UseMiddleware<CorrelationIdMiddleware>();
 app.UseRateLimiter();

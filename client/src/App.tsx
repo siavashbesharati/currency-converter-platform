@@ -29,6 +29,7 @@ export default function App() {
     return (
       <div style={{ padding: 20 }}>
         <h1>Login</h1>
+        <p>Use username: <strong>demo</strong> and password: <strong>demo</strong></p>
         <form onSubmit={handleLogin}>
           <div>
             <label>Username</label>

@@ -1,0 +1,1121 @@
+2026-02-24 08:04:52.772 -06:00 [INF] User profile is available. Using 'C:\Users\MOHAMMAD\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-02-24 08:04:54.321 -06:00 [INF] Now listening on: http://localhost:5000
+2026-02-24 08:04:54.326 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-02-24 08:04:54.327 -06:00 [INF] Hosting environment: Production
+2026-02-24 08:04:54.328 -06:00 [INF] Content root path: D:\Interview\currency-converter-platform\src\CurrencyConverter.Api
+2026-02-24 08:22:42.885 -06:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5000/api/v1/auth/login - null null
+2026-02-24 08:22:45.062 -06:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5000/api/v1/auth/login - null null
+2026-02-24 08:22:46.882 -06:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2026-02-24 08:22:46.882 -06:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2026-02-24 08:22:46.883 -06:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2026-02-24 08:22:46.883 -06:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2026-02-24 08:22:46.894 -06:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5000/api/v1/auth/login - 405 0 null 4010.5501ms
+2026-02-24 08:22:46.894 -06:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5000/api/v1/auth/login - 405 0 null 1831.7475ms
+2026-02-24 08:22:47.178 -06:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5000/api/v1/auth/login - null null
+2026-02-24 08:22:47.184 -06:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2026-02-24 08:22:47.185 -06:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2026-02-24 08:22:47.187 -06:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5000/api/v1/auth/login - 405 0 null 8.5377ms
+2026-02-24 08:22:50.424 -06:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5000/api/v1/auth/login - null null
+2026-02-24 08:22:50.428 -06:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2026-02-24 08:22:50.430 -06:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2026-02-24 08:22:50.432 -06:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5000/api/v1/auth/login - 405 0 null 8.026ms
+2026-02-24 08:23:21.650 -06:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5000/api/v1/auth/login - null null
+2026-02-24 08:23:21.653 -06:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2026-02-24 08:23:21.655 -06:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2026-02-24 08:23:21.656 -06:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5000/api/v1/auth/login - 405 0 null 5.7663ms
+2026-02-24 08:23:23.288 -06:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5000/api/v1/auth/login - null null
+2026-02-24 08:23:23.291 -06:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2026-02-24 08:23:23.292 -06:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2026-02-24 08:23:23.293 -06:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5000/api/v1/auth/login - 405 0 null 5.3811ms
+2026-02-24 08:25:23.701 -06:00 [INF] Application is shutting down...
+2026-02-24 08:26:25.979 -06:00 [INF] User profile is available. Using 'C:\Users\MOHAMMAD\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-02-24 08:26:26.282 -06:00 [INF] Now listening on: http://localhost:5000
+2026-02-24 08:26:26.286 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-02-24 08:26:26.287 -06:00 [INF] Hosting environment: Production
+2026-02-24 08:26:26.289 -06:00 [INF] Content root path: D:\Interview\currency-converter-platform\src\CurrencyConverter.Api
+2026-02-24 08:26:34.405 -06:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5000/api/v1/auth/login - null null
+2026-02-24 08:26:34.415 -06:00 [INF] CORS policy execution successful.
+2026-02-24 08:26:34.424 -06:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5000/api/v1/auth/login - 204 null null 20.7855ms
+2026-02-24 08:26:34.435 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/v1/auth/login - application/json 37
+2026-02-24 08:26:34.439 -06:00 [INF] CORS policy execution successful.
+2026-02-24 08:26:35.057 -06:00 [INF] Executing endpoint 'CurrencyConverter.Api.Controllers.AuthController.Login (CurrencyConverter.Api)'
+2026-02-24 08:26:35.079 -06:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(CurrencyConverter.Api.Controllers.LoginRequest) on controller CurrencyConverter.Api.Controllers.AuthController (CurrencyConverter.Api).
+2026-02-24 08:26:36.191 -06:00 [INF] Executed action CurrencyConverter.Api.Controllers.AuthController.Login (CurrencyConverter.Api) in 1107.1682ms
+2026-02-24 08:26:36.194 -06:00 [INF] Executed endpoint 'CurrencyConverter.Api.Controllers.AuthController.Login (CurrencyConverter.Api)'
+2026-02-24 08:26:36.199 -06:00 [ERR] Connection id "0HNJJM2R44HSI", Request id "80372936-e812-4d25-96b9-5ffb0bedfc8a": An unhandled exception was thrown by the application.
+System.ArgumentOutOfRangeException: IDX10720: Unable to create KeyedHashAlgorithm for algorithm 'HS256', the key size must be greater than: '256' bits, key has '224' bits. (Parameter 'keyBytes')
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.ValidateKeySize(Byte[] keyBytes, String algorithm, Int32 expectedNumberOfBytes)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateKeyedHashAlgorithm(Byte[] keyBytes, String algorithm)
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.CreateKeyedHashAlgorithm()
+   at Microsoft.IdentityModel.Tokens.DisposableObjectPool`1.CreateInstance()
+   at Microsoft.IdentityModel.Tokens.DisposableObjectPool`1.Allocate()
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.GetKeyedHashAlgorithm(Byte[] keyBytes, String algorithm)
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.Sign(Byte[] input)
+   at Microsoft.IdentityModel.JsonWebTokens.JwtTokenUtilities.CreateEncodedSignature(String input, SigningCredentials signingCredentials)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.WriteToken(SecurityToken token)
+   at CurrencyConverter.Api.Auth.TokenService.GenerateToken(String username, String[] roles) in D:\Interview\currency-converter-platform\src\CurrencyConverter.Api\Auth\TokenService.cs:line 33
+   at CurrencyConverter.Api.Controllers.AuthController.Login(LoginRequest req) in D:\Interview\currency-converter-platform\src\CurrencyConverter.Api\Controllers\AuthController.cs:line 27
+   at lambda_method4(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at CurrencyConverter.Api.Middleware.CorrelationIdMiddleware.InvokeAsync(HttpContext context) in D:\Interview\currency-converter-platform\src\CurrencyConverter.Api\Middleware\CorrelationIdMiddleware.cs:line 30
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2026-02-24 08:26:36.261 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/api/v1/auth/login - 500 0 null 1825.0023ms
+2026-02-24 08:26:59.185 -06:00 [INF] Application is shutting down...
+2026-02-24 08:27:32.491 -06:00 [INF] User profile is available. Using 'C:\Users\MOHAMMAD\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-02-24 08:27:32.705 -06:00 [INF] Now listening on: http://localhost:5000
+2026-02-24 08:27:32.710 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-02-24 08:27:32.712 -06:00 [INF] Hosting environment: Production
+2026-02-24 08:27:32.713 -06:00 [INF] Content root path: D:\Interview\currency-converter-platform\src\CurrencyConverter.Api
+2026-02-24 08:27:46.617 -06:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5000/api/v1/auth/login - null null
+2026-02-24 08:27:46.629 -06:00 [INF] CORS policy execution successful.
+2026-02-24 08:27:46.639 -06:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5000/api/v1/auth/login - 204 null null 23.4899ms
+2026-02-24 08:27:46.652 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/v1/auth/login - application/json 37
+2026-02-24 08:27:46.656 -06:00 [INF] CORS policy execution successful.
+2026-02-24 08:27:46.898 -06:00 [INF] Executing endpoint 'CurrencyConverter.Api.Controllers.AuthController.Login (CurrencyConverter.Api)'
+2026-02-24 08:27:46.933 -06:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(CurrencyConverter.Api.Controllers.LoginRequest) on controller CurrencyConverter.Api.Controllers.AuthController (CurrencyConverter.Api).
+2026-02-24 08:27:47.029 -06:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-02-24 08:27:47.041 -06:00 [INF] Executed action CurrencyConverter.Api.Controllers.AuthController.Login (CurrencyConverter.Api) in 102.5447ms
+2026-02-24 08:27:47.043 -06:00 [INF] Executed endpoint 'CurrencyConverter.Api.Controllers.AuthController.Login (CurrencyConverter.Api)'
+2026-02-24 08:27:47.045 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/api/v1/auth/login - 200 null application/json; charset=utf-8 393.1984ms
+2026-02-24 08:27:47.188 -06:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5000/api/v1/currency/latest?baseCurrency=USD - null null
+2026-02-24 08:27:47.189 -06:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5000/api/v1/currency/latest?baseCurrency=USD - null null
+2026-02-24 08:27:47.191 -06:00 [INF] CORS policy execution successful.
+2026-02-24 08:27:47.193 -06:00 [INF] CORS policy execution successful.
+2026-02-24 08:27:47.194 -06:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5000/api/v1/currency/latest?baseCurrency=USD - 204 null null 6.5732ms
+2026-02-24 08:27:47.196 -06:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5000/api/v1/currency/latest?baseCurrency=USD - 204 null null 6.8799ms
+2026-02-24 08:27:47.199 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/v1/currency/latest?baseCurrency=USD - null null
+2026-02-24 08:27:47.204 -06:00 [INF] CORS policy execution successful.
+2026-02-24 08:27:47.261 -06:00 [INF] Executing endpoint 'CurrencyConverter.Api.Controllers.CurrencyController.GetLatest (CurrencyConverter.Api)'
+2026-02-24 08:27:47.270 -06:00 [INF] Route matched with {action = "GetLatest", controller = "Currency"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLatest(System.String) on controller CurrencyConverter.Api.Controllers.CurrencyController (CurrencyConverter.Api).
+2026-02-24 08:27:59.343 -06:00 [ERR] Failed executing DbCommand (12ms) [Parameters=[@__baseCurrency_0='?' (Size = 3)], CommandType='"Text"', CommandTimeout='30']
+SELECT "e"."Id", "e"."BaseCurrency", "e"."RatesJson", "e"."Timestamp"
+FROM "ExchangeRateCaches" AS "e"
+WHERE "e"."BaseCurrency" = @__baseCurrency_0
+LIMIT 1
+2026-02-24 08:27:59.372 -06:00 [ERR] An exception occurred while iterating over the results of a query for context type 'CurrencyConverter.Api.Data.ExchangeRateDbContext'.
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: ExchangeRateCaches'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: ExchangeRateCaches'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2026-02-24 08:27:59.389 -06:00 [INF] Executed action CurrencyConverter.Api.Controllers.CurrencyController.GetLatest (CurrencyConverter.Api) in 12115.9289ms
+2026-02-24 08:27:59.391 -06:00 [INF] Executed endpoint 'CurrencyConverter.Api.Controllers.CurrencyController.GetLatest (CurrencyConverter.Api)'
+2026-02-24 08:27:59.394 -06:00 [ERR] Connection id "0HNJJM3GLMUC5", Request id "8cf5227a-f8a8-411d-a16b-434d085c6e2b": An unhandled exception was thrown by the application.
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: ExchangeRateCaches'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at CurrencyConverter.Api.Services.CachingCurrencyService.GetLatestAsync(String baseCurrency) in D:\Interview\currency-converter-platform\src\CurrencyConverter.Api\Services\CachingCurrencyService.cs:line 36
+   at CurrencyConverter.Api.Controllers.CurrencyController.GetLatest(String baseCurrency) in D:\Interview\currency-converter-platform\src\CurrencyConverter.Api\Controllers\CurrencyController.cs:line 29
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at CurrencyConverter.Api.Middleware.CorrelationIdMiddleware.InvokeAsync(HttpContext context) in D:\Interview\currency-converter-platform\src\CurrencyConverter.Api\Middleware\CorrelationIdMiddleware.cs:line 30
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2026-02-24 08:27:59.447 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/v1/currency/latest?baseCurrency=USD - 500 0 null 12248.3099ms
+2026-02-24 08:27:59.451 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/v1/currency/latest?baseCurrency=USD - null null
+2026-02-24 08:27:59.453 -06:00 [INF] CORS policy execution successful.
+2026-02-24 08:27:59.458 -06:00 [INF] Executing endpoint 'CurrencyConverter.Api.Controllers.CurrencyController.GetLatest (CurrencyConverter.Api)'
+2026-02-24 08:27:59.460 -06:00 [INF] Route matched with {action = "GetLatest", controller = "Currency"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLatest(System.String) on controller CurrencyConverter.Api.Controllers.CurrencyController (CurrencyConverter.Api).
+2026-02-24 08:27:59.485 -06:00 [ERR] Failed executing DbCommand (1ms) [Parameters=[@__baseCurrency_0='?' (Size = 3)], CommandType='"Text"', CommandTimeout='30']
+SELECT "e"."Id", "e"."BaseCurrency", "e"."RatesJson", "e"."Timestamp"
+FROM "ExchangeRateCaches" AS "e"
+WHERE "e"."BaseCurrency" = @__baseCurrency_0
+LIMIT 1
+2026-02-24 08:27:59.491 -06:00 [ERR] An exception occurred while iterating over the results of a query for context type 'CurrencyConverter.Api.Data.ExchangeRateDbContext'.
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: ExchangeRateCaches'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: ExchangeRateCaches'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2026-02-24 08:27:59.501 -06:00 [INF] Executed action CurrencyConverter.Api.Controllers.CurrencyController.GetLatest (CurrencyConverter.Api) in 38.7218ms
+2026-02-24 08:27:59.503 -06:00 [INF] Executed endpoint 'CurrencyConverter.Api.Controllers.CurrencyController.GetLatest (CurrencyConverter.Api)'
+2026-02-24 08:27:59.505 -06:00 [ERR] Connection id "0HNJJM3GLMUC5", Request id "8cf5227a-f8a8-411d-a16b-434d085c6e2b": An unhandled exception was thrown by the application.
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: ExchangeRateCaches'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at CurrencyConverter.Api.Services.CachingCurrencyService.GetLatestAsync(String baseCurrency) in D:\Interview\currency-converter-platform\src\CurrencyConverter.Api\Services\CachingCurrencyService.cs:line 36
+   at CurrencyConverter.Api.Controllers.CurrencyController.GetLatest(String baseCurrency) in D:\Interview\currency-converter-platform\src\CurrencyConverter.Api\Controllers\CurrencyController.cs:line 29
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at CurrencyConverter.Api.Middleware.CorrelationIdMiddleware.InvokeAsync(HttpContext context) in D:\Interview\currency-converter-platform\src\CurrencyConverter.Api\Middleware\CorrelationIdMiddleware.cs:line 30
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2026-02-24 08:27:59.526 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/v1/currency/latest?baseCurrency=USD - 500 0 null 75.2616ms
+2026-02-24 08:28:05.950 -06:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5000/api/v1/currency/latest?baseCurrency=USD - null null
+2026-02-24 08:28:05.953 -06:00 [INF] CORS policy execution successful.
+2026-02-24 08:28:05.954 -06:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5000/api/v1/currency/latest?baseCurrency=USD - 204 null null 4.4807ms
+2026-02-24 08:28:05.959 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/v1/currency/latest?baseCurrency=USD - null null
+2026-02-24 08:28:05.963 -06:00 [INF] CORS policy execution successful.
+2026-02-24 08:28:05.964 -06:00 [INF] Executing endpoint 'CurrencyConverter.Api.Controllers.CurrencyController.GetLatest (CurrencyConverter.Api)'
+2026-02-24 08:28:05.965 -06:00 [INF] Route matched with {action = "GetLatest", controller = "Currency"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLatest(System.String) on controller CurrencyConverter.Api.Controllers.CurrencyController (CurrencyConverter.Api).
+2026-02-24 08:28:06.217 -06:00 [ERR] Failed executing DbCommand (0ms) [Parameters=[@__baseCurrency_0='?' (Size = 3)], CommandType='"Text"', CommandTimeout='30']
+SELECT "e"."Id", "e"."BaseCurrency", "e"."RatesJson", "e"."Timestamp"
+FROM "ExchangeRateCaches" AS "e"
+WHERE "e"."BaseCurrency" = @__baseCurrency_0
+LIMIT 1
+2026-02-24 08:28:06.221 -06:00 [ERR] An exception occurred while iterating over the results of a query for context type 'CurrencyConverter.Api.Data.ExchangeRateDbContext'.
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: ExchangeRateCaches'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: ExchangeRateCaches'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2026-02-24 08:28:06.230 -06:00 [INF] Executed action CurrencyConverter.Api.Controllers.CurrencyController.GetLatest (CurrencyConverter.Api) in 260.4663ms
+2026-02-24 08:28:06.231 -06:00 [INF] Executed endpoint 'CurrencyConverter.Api.Controllers.CurrencyController.GetLatest (CurrencyConverter.Api)'
+2026-02-24 08:28:06.233 -06:00 [ERR] Connection id "0HNJJM3GLMUC5", Request id "8cf5227a-f8a8-411d-a16b-434d085c6e2b": An unhandled exception was thrown by the application.
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: ExchangeRateCaches'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at CurrencyConverter.Api.Services.CachingCurrencyService.GetLatestAsync(String baseCurrency) in D:\Interview\currency-converter-platform\src\CurrencyConverter.Api\Services\CachingCurrencyService.cs:line 36
+   at CurrencyConverter.Api.Controllers.CurrencyController.GetLatest(String baseCurrency) in D:\Interview\currency-converter-platform\src\CurrencyConverter.Api\Controllers\CurrencyController.cs:line 29
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at CurrencyConverter.Api.Middleware.CorrelationIdMiddleware.InvokeAsync(HttpContext context) in D:\Interview\currency-converter-platform\src\CurrencyConverter.Api\Middleware\CorrelationIdMiddleware.cs:line 30
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2026-02-24 08:28:06.248 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/v1/currency/latest?baseCurrency=USD - 500 0 null 289.8502ms
+2026-02-24 08:28:08.870 -06:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5000/api/v1/currency/convert - null null
+2026-02-24 08:28:08.873 -06:00 [INF] CORS policy execution successful.
+2026-02-24 08:28:08.876 -06:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5000/api/v1/currency/convert - 204 null null 6.2096ms
+2026-02-24 08:28:08.881 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/v1/currency/convert - application/json 42
+2026-02-24 08:28:08.884 -06:00 [INF] CORS policy execution successful.
+2026-02-24 08:28:08.889 -06:00 [INF] Executing endpoint 'CurrencyConverter.Api.Controllers.CurrencyController.Convert (CurrencyConverter.Api)'
+2026-02-24 08:28:08.898 -06:00 [INF] Route matched with {action = "Convert", controller = "Currency"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Convert(CurrencyConverter.Api.Controllers.CurrencyConversionRequest) on controller CurrencyConverter.Api.Controllers.CurrencyController (CurrencyConverter.Api).
+2026-02-24 08:28:09.166 -06:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/latest?*
+2026-02-24 08:28:09.367 -06:00 [INF] Sending HTTP request GET https://api.frankfurter.app/latest?*
+2026-02-24 08:28:12.089 -06:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5000/api/v1/currency/latest?baseCurrency=USD - null null
+2026-02-24 08:28:12.091 -06:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5000/api/v1/currency/latest?baseCurrency=USD - null null
+2026-02-24 08:28:12.093 -06:00 [INF] CORS policy execution successful.
+2026-02-24 08:28:12.096 -06:00 [INF] CORS policy execution successful.
+2026-02-24 08:28:12.097 -06:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5000/api/v1/currency/latest?baseCurrency=USD - 204 null null 7.3792ms
+2026-02-24 08:28:12.098 -06:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5000/api/v1/currency/latest?baseCurrency=USD - 204 null null 7.3634ms
+2026-02-24 08:28:12.102 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/v1/currency/latest?baseCurrency=USD - null null
+2026-02-24 08:28:12.107 -06:00 [INF] CORS policy execution successful.
+2026-02-24 08:28:12.109 -06:00 [INF] Executing endpoint 'CurrencyConverter.Api.Controllers.CurrencyController.GetLatest (CurrencyConverter.Api)'
+2026-02-24 08:28:12.110 -06:00 [INF] Route matched with {action = "GetLatest", controller = "Currency"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLatest(System.String) on controller CurrencyConverter.Api.Controllers.CurrencyController (CurrencyConverter.Api).
+2026-02-24 08:28:12.113 -06:00 [ERR] Failed executing DbCommand (0ms) [Parameters=[@__baseCurrency_0='?' (Size = 3)], CommandType='"Text"', CommandTimeout='30']
+SELECT "e"."Id", "e"."BaseCurrency", "e"."RatesJson", "e"."Timestamp"
+FROM "ExchangeRateCaches" AS "e"
+WHERE "e"."BaseCurrency" = @__baseCurrency_0
+LIMIT 1
+2026-02-24 08:28:12.116 -06:00 [ERR] An exception occurred while iterating over the results of a query for context type 'CurrencyConverter.Api.Data.ExchangeRateDbContext'.
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: ExchangeRateCaches'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: ExchangeRateCaches'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2026-02-24 08:28:12.124 -06:00 [INF] Executed action CurrencyConverter.Api.Controllers.CurrencyController.GetLatest (CurrencyConverter.Api) in 12.1324ms
+2026-02-24 08:28:12.125 -06:00 [INF] Executed endpoint 'CurrencyConverter.Api.Controllers.CurrencyController.GetLatest (CurrencyConverter.Api)'
+2026-02-24 08:28:12.127 -06:00 [ERR] Connection id "0HNJJM3GLMUC6", Request id "8cf5227a-f8a8-411d-a16b-434d085c6e2b": An unhandled exception was thrown by the application.
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: ExchangeRateCaches'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at CurrencyConverter.Api.Services.CachingCurrencyService.GetLatestAsync(String baseCurrency) in D:\Interview\currency-converter-platform\src\CurrencyConverter.Api\Services\CachingCurrencyService.cs:line 36
+   at CurrencyConverter.Api.Controllers.CurrencyController.GetLatest(String baseCurrency) in D:\Interview\currency-converter-platform\src\CurrencyConverter.Api\Controllers\CurrencyController.cs:line 29
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at CurrencyConverter.Api.Middleware.CorrelationIdMiddleware.InvokeAsync(HttpContext context) in D:\Interview\currency-converter-platform\src\CurrencyConverter.Api\Middleware\CorrelationIdMiddleware.cs:line 30
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2026-02-24 08:28:12.140 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/v1/currency/latest?baseCurrency=USD - 500 0 null 37.7835ms
+2026-02-24 08:28:12.143 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/v1/currency/latest?baseCurrency=USD - null null
+2026-02-24 08:28:12.145 -06:00 [INF] CORS policy execution successful.
+2026-02-24 08:28:12.146 -06:00 [INF] Executing endpoint 'CurrencyConverter.Api.Controllers.CurrencyController.GetLatest (CurrencyConverter.Api)'
+2026-02-24 08:28:12.148 -06:00 [INF] Route matched with {action = "GetLatest", controller = "Currency"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLatest(System.String) on controller CurrencyConverter.Api.Controllers.CurrencyController (CurrencyConverter.Api).
+2026-02-24 08:28:12.151 -06:00 [ERR] Failed executing DbCommand (0ms) [Parameters=[@__baseCurrency_0='?' (Size = 3)], CommandType='"Text"', CommandTimeout='30']
+SELECT "e"."Id", "e"."BaseCurrency", "e"."RatesJson", "e"."Timestamp"
+FROM "ExchangeRateCaches" AS "e"
+WHERE "e"."BaseCurrency" = @__baseCurrency_0
+LIMIT 1
+2026-02-24 08:28:12.155 -06:00 [ERR] An exception occurred while iterating over the results of a query for context type 'CurrencyConverter.Api.Data.ExchangeRateDbContext'.
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: ExchangeRateCaches'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: ExchangeRateCaches'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2026-02-24 08:28:12.162 -06:00 [INF] Executed action CurrencyConverter.Api.Controllers.CurrencyController.GetLatest (CurrencyConverter.Api) in 12.6531ms
+2026-02-24 08:28:12.164 -06:00 [INF] Executed endpoint 'CurrencyConverter.Api.Controllers.CurrencyController.GetLatest (CurrencyConverter.Api)'
+2026-02-24 08:28:12.165 -06:00 [ERR] Connection id "0HNJJM3GLMUC6", Request id "8cf5227a-f8a8-411d-a16b-434d085c6e2b": An unhandled exception was thrown by the application.
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: ExchangeRateCaches'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at CurrencyConverter.Api.Services.CachingCurrencyService.GetLatestAsync(String baseCurrency) in D:\Interview\currency-converter-platform\src\CurrencyConverter.Api\Services\CachingCurrencyService.cs:line 36
+   at CurrencyConverter.Api.Controllers.CurrencyController.GetLatest(String baseCurrency) in D:\Interview\currency-converter-platform\src\CurrencyConverter.Api\Controllers\CurrencyController.cs:line 29
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at CurrencyConverter.Api.Middleware.CorrelationIdMiddleware.InvokeAsync(HttpContext context) in D:\Interview\currency-converter-platform\src\CurrencyConverter.Api\Middleware\CorrelationIdMiddleware.cs:line 30
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2026-02-24 08:28:12.179 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/v1/currency/latest?baseCurrency=USD - 500 0 null 36.138ms
+2026-02-24 08:28:14.827 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/v1/currency/latest?baseCurrency=USD - null null
+2026-02-24 08:28:14.833 -06:00 [INF] CORS policy execution successful.
+2026-02-24 08:28:14.837 -06:00 [INF] Executing endpoint 'CurrencyConverter.Api.Controllers.CurrencyController.GetLatest (CurrencyConverter.Api)'
+2026-02-24 08:28:14.839 -06:00 [INF] Route matched with {action = "GetLatest", controller = "Currency"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLatest(System.String) on controller CurrencyConverter.Api.Controllers.CurrencyController (CurrencyConverter.Api).
+2026-02-24 08:28:14.844 -06:00 [ERR] Failed executing DbCommand (1ms) [Parameters=[@__baseCurrency_0='?' (Size = 3)], CommandType='"Text"', CommandTimeout='30']
+SELECT "e"."Id", "e"."BaseCurrency", "e"."RatesJson", "e"."Timestamp"
+FROM "ExchangeRateCaches" AS "e"
+WHERE "e"."BaseCurrency" = @__baseCurrency_0
+LIMIT 1
+2026-02-24 08:28:14.849 -06:00 [ERR] An exception occurred while iterating over the results of a query for context type 'CurrencyConverter.Api.Data.ExchangeRateDbContext'.
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: ExchangeRateCaches'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: ExchangeRateCaches'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2026-02-24 08:28:14.864 -06:00 [INF] Executed action CurrencyConverter.Api.Controllers.CurrencyController.GetLatest (CurrencyConverter.Api) in 22.0835ms
+2026-02-24 08:28:14.866 -06:00 [INF] Executed endpoint 'CurrencyConverter.Api.Controllers.CurrencyController.GetLatest (CurrencyConverter.Api)'
+2026-02-24 08:28:14.867 -06:00 [ERR] Connection id "0HNJJM3GLMUC6", Request id "8cf5227a-f8a8-411d-a16b-434d085c6e2b": An unhandled exception was thrown by the application.
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: ExchangeRateCaches'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at CurrencyConverter.Api.Services.CachingCurrencyService.GetLatestAsync(String baseCurrency) in D:\Interview\currency-converter-platform\src\CurrencyConverter.Api\Services\CachingCurrencyService.cs:line 36
+   at CurrencyConverter.Api.Controllers.CurrencyController.GetLatest(String baseCurrency) in D:\Interview\currency-converter-platform\src\CurrencyConverter.Api\Controllers\CurrencyController.cs:line 29
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at CurrencyConverter.Api.Middleware.CorrelationIdMiddleware.InvokeAsync(HttpContext context) in D:\Interview\currency-converter-platform\src\CurrencyConverter.Api\Middleware\CorrelationIdMiddleware.cs:line 30
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2026-02-24 08:28:14.893 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/v1/currency/latest?baseCurrency=USD - 500 0 null 66.1437ms
+2026-02-24 08:28:14.897 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/v1/currency/latest?baseCurrency=USD - null null
+2026-02-24 08:28:14.900 -06:00 [INF] CORS policy execution successful.
+2026-02-24 08:28:14.901 -06:00 [INF] Executing endpoint 'CurrencyConverter.Api.Controllers.CurrencyController.GetLatest (CurrencyConverter.Api)'
+2026-02-24 08:28:14.903 -06:00 [INF] Route matched with {action = "GetLatest", controller = "Currency"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLatest(System.String) on controller CurrencyConverter.Api.Controllers.CurrencyController (CurrencyConverter.Api).
+2026-02-24 08:28:14.907 -06:00 [ERR] Failed executing DbCommand (0ms) [Parameters=[@__baseCurrency_0='?' (Size = 3)], CommandType='"Text"', CommandTimeout='30']
+SELECT "e"."Id", "e"."BaseCurrency", "e"."RatesJson", "e"."Timestamp"
+FROM "ExchangeRateCaches" AS "e"
+WHERE "e"."BaseCurrency" = @__baseCurrency_0
+LIMIT 1
+2026-02-24 08:28:14.910 -06:00 [ERR] An exception occurred while iterating over the results of a query for context type 'CurrencyConverter.Api.Data.ExchangeRateDbContext'.
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: ExchangeRateCaches'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: ExchangeRateCaches'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2026-02-24 08:28:14.921 -06:00 [INF] Executed action CurrencyConverter.Api.Controllers.CurrencyController.GetLatest (CurrencyConverter.Api) in 16.1675ms
+2026-02-24 08:28:14.923 -06:00 [INF] Executed endpoint 'CurrencyConverter.Api.Controllers.CurrencyController.GetLatest (CurrencyConverter.Api)'
+2026-02-24 08:28:14.925 -06:00 [ERR] Connection id "0HNJJM3GLMUC6", Request id "8cf5227a-f8a8-411d-a16b-434d085c6e2b": An unhandled exception was thrown by the application.
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: ExchangeRateCaches'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at CurrencyConverter.Api.Services.CachingCurrencyService.GetLatestAsync(String baseCurrency) in D:\Interview\currency-converter-platform\src\CurrencyConverter.Api\Services\CachingCurrencyService.cs:line 36
+   at CurrencyConverter.Api.Controllers.CurrencyController.GetLatest(String baseCurrency) in D:\Interview\currency-converter-platform\src\CurrencyConverter.Api\Controllers\CurrencyController.cs:line 29
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at CurrencyConverter.Api.Middleware.CorrelationIdMiddleware.InvokeAsync(HttpContext context) in D:\Interview\currency-converter-platform\src\CurrencyConverter.Api\Middleware\CorrelationIdMiddleware.cs:line 30
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2026-02-24 08:28:14.941 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/v1/currency/latest?baseCurrency=USD - 500 0 null 44.0951ms
+2026-02-24 08:28:19.179 -06:00 [INF] Executed action CurrencyConverter.Api.Controllers.CurrencyController.Convert (CurrencyConverter.Api) in 10278.4259ms
+2026-02-24 08:28:19.181 -06:00 [INF] Executed endpoint 'CurrencyConverter.Api.Controllers.CurrencyController.Convert (CurrencyConverter.Api)'
+2026-02-24 08:28:19.184 -06:00 [ERR] Connection id "0HNJJM3GLMUC5", Request id "8cf5227a-f8a8-411d-a16b-434d085c6e2b": An unhandled exception was thrown by the application.
+System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 10 seconds elapsing.
+ ---> System.TimeoutException: The operation was canceled.
+ ---> System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.IO.IOException: Unable to read data from the transport connection: The I/O operation has been aborted because of either a thread exit or an application request..
+ ---> System.Net.Sockets.SocketException (995): The I/O operation has been aborted because of either a thread exit or an application request.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken cancellationToken, Int32 estimatedSize)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](Memory`1 buffer, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Http.HttpConnection.InitialFillAsync(Boolean async)
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|4_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.PolicyHttpMessageHandler.SendCoreAsync(HttpRequestMessage request, Context context, CancellationToken cancellationToken)
+   at Polly.CircuitBreaker.AsyncCircuitBreakerEngine.ImplementationAsync[TResult](Func`3 action, Context context, CancellationToken cancellationToken, Boolean continueOnCapturedContext, ExceptionPredicates shouldHandleExceptionPredicates, ResultPredicates`1 shouldHandleResultPredicates, ICircuitController`1 breakerController)
+   at Polly.AsyncPolicy`1.ExecuteAsync(Func`3 action, Context context, CancellationToken cancellationToken, Boolean continueOnCapturedContext)
+   at Microsoft.Extensions.Http.PolicyHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.PolicyHttpMessageHandler.SendCoreAsync(HttpRequestMessage request, Context context, CancellationToken cancellationToken)
+   at Polly.Retry.AsyncRetryEngine.ImplementationAsync[TResult](Func`3 action, Context context, CancellationToken cancellationToken, ExceptionPredicates shouldRetryExceptionPredicates, ResultPredicates`1 shouldRetryResultPredicates, Func`5 onRetryAsync, Int32 permittedRetryCount, IEnumerable`1 sleepDurationsEnumerable, Func`4 sleepDurationProvider, Boolean continueOnCapturedContext)
+   at Polly.AsyncPolicy`1.ExecuteAsync(Func`3 action, Context context, CancellationToken cancellationToken, Boolean continueOnCapturedContext)
+   at Microsoft.Extensions.Http.PolicyHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|4_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   --- End of inner exception stack trace ---
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, CancellationToken cancellationToken, CancellationTokenSource pendingRequestsCts)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at CurrencyConverter.Api.Providers.FrankfurterProvider.GetLatestRatesAsync(String baseCurrency) in D:\Interview\currency-converter-platform\src\CurrencyConverter.Api\Providers\FrankfurterProvider.cs:line 29
+   at CurrencyConverter.Api.Services.CurrencyService.GetLatestAsync(String baseCurrency) in D:\Interview\currency-converter-platform\src\CurrencyConverter.Api\Services\CurrencyService.cs:line 19
+   at CurrencyConverter.Api.Services.CurrencyService.ConvertAsync(String from, String to, Decimal amount) in D:\Interview\currency-converter-platform\src\CurrencyConverter.Api\Services\CurrencyService.cs:line 24
+   at CurrencyConverter.Api.Controllers.CurrencyController.Convert(CurrencyConversionRequest req) in D:\Interview\currency-converter-platform\src\CurrencyConverter.Api\Controllers\CurrencyController.cs:line 38
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at CurrencyConverter.Api.Middleware.CorrelationIdMiddleware.InvokeAsync(HttpContext context) in D:\Interview\currency-converter-platform\src\CurrencyConverter.Api\Middleware\CorrelationIdMiddleware.cs:line 30
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2026-02-24 08:28:19.339 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/api/v1/currency/convert - 500 0 null 10458.0461ms
+2026-02-24 08:28:49.484 -06:00 [INF] Application is shutting down...
+2026-02-24 08:29:33.898 -06:00 [INF] User profile is available. Using 'C:\Users\MOHAMMAD\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-02-24 08:29:34.041 -06:00 [INF] Now listening on: http://localhost:5000
+2026-02-24 08:29:34.046 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-02-24 08:29:34.048 -06:00 [INF] Hosting environment: Production
+2026-02-24 08:29:34.049 -06:00 [INF] Content root path: D:\Interview\currency-converter-platform\src\CurrencyConverter.Api
+2026-02-24 08:30:19.783 -06:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5000/api/v1/currency/latest?baseCurrency=USD - null null
+2026-02-24 08:30:19.783 -06:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5000/api/v1/currency/latest?baseCurrency=USD - null null
+2026-02-24 08:30:19.798 -06:00 [INF] CORS policy execution successful.
+2026-02-24 08:30:19.798 -06:00 [INF] CORS policy execution successful.
+2026-02-24 08:30:19.815 -06:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5000/api/v1/currency/latest?baseCurrency=USD - 204 null null 32.5776ms
+2026-02-24 08:30:19.815 -06:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5000/api/v1/currency/latest?baseCurrency=USD - 204 null null 32.5826ms
+2026-02-24 08:30:19.827 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/v1/currency/latest?baseCurrency=USD - null null
+2026-02-24 08:30:19.831 -06:00 [INF] CORS policy execution successful.
+2026-02-24 08:30:20.087 -06:00 [INF] Executing endpoint 'CurrencyConverter.Api.Controllers.CurrencyController.GetLatest (CurrencyConverter.Api)'
+2026-02-24 08:30:20.119 -06:00 [INF] Route matched with {action = "GetLatest", controller = "Currency"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLatest(System.String) on controller CurrencyConverter.Api.Controllers.CurrencyController (CurrencyConverter.Api).
+2026-02-24 08:30:21.138 -06:00 [ERR] Failed executing DbCommand (9ms) [Parameters=[@__baseCurrency_0='?' (Size = 3)], CommandType='"Text"', CommandTimeout='30']
+SELECT "e"."Id", "e"."BaseCurrency", "e"."RatesJson", "e"."Timestamp"
+FROM "ExchangeRateCaches" AS "e"
+WHERE "e"."BaseCurrency" = @__baseCurrency_0
+LIMIT 1
+2026-02-24 08:30:21.189 -06:00 [ERR] An exception occurred while iterating over the results of a query for context type 'CurrencyConverter.Api.Data.ExchangeRateDbContext'.
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: ExchangeRateCaches'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: ExchangeRateCaches'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2026-02-24 08:30:21.206 -06:00 [INF] Executed action CurrencyConverter.Api.Controllers.CurrencyController.GetLatest (CurrencyConverter.Api) in 1081.4957ms
+2026-02-24 08:30:21.208 -06:00 [INF] Executed endpoint 'CurrencyConverter.Api.Controllers.CurrencyController.GetLatest (CurrencyConverter.Api)'
+2026-02-24 08:30:21.213 -06:00 [ERR] Connection id "0HNJJM4UALRNU", Request id "abd3a1f5-e9f6-4c93-9042-52faa940d53a": An unhandled exception was thrown by the application.
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: ExchangeRateCaches'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at CurrencyConverter.Api.Services.CachingCurrencyService.GetLatestAsync(String baseCurrency) in D:\Interview\currency-converter-platform\src\CurrencyConverter.Api\Services\CachingCurrencyService.cs:line 36
+   at CurrencyConverter.Api.Controllers.CurrencyController.GetLatest(String baseCurrency) in D:\Interview\currency-converter-platform\src\CurrencyConverter.Api\Controllers\CurrencyController.cs:line 31
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at CurrencyConverter.Api.Middleware.CorrelationIdMiddleware.InvokeAsync(HttpContext context) in D:\Interview\currency-converter-platform\src\CurrencyConverter.Api\Middleware\CorrelationIdMiddleware.cs:line 30
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2026-02-24 08:30:21.262 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/v1/currency/latest?baseCurrency=USD - 500 0 null 1434.6515ms
+2026-02-24 08:30:21.267 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/v1/currency/latest?baseCurrency=USD - null null
+2026-02-24 08:30:21.270 -06:00 [INF] CORS policy execution successful.
+2026-02-24 08:30:21.275 -06:00 [INF] Executing endpoint 'CurrencyConverter.Api.Controllers.CurrencyController.GetLatest (CurrencyConverter.Api)'
+2026-02-24 08:30:21.277 -06:00 [INF] Route matched with {action = "GetLatest", controller = "Currency"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLatest(System.String) on controller CurrencyConverter.Api.Controllers.CurrencyController (CurrencyConverter.Api).
+2026-02-24 08:30:21.298 -06:00 [ERR] Failed executing DbCommand (0ms) [Parameters=[@__baseCurrency_0='?' (Size = 3)], CommandType='"Text"', CommandTimeout='30']
+SELECT "e"."Id", "e"."BaseCurrency", "e"."RatesJson", "e"."Timestamp"
+FROM "ExchangeRateCaches" AS "e"
+WHERE "e"."BaseCurrency" = @__baseCurrency_0
+LIMIT 1
+2026-02-24 08:30:21.301 -06:00 [ERR] An exception occurred while iterating over the results of a query for context type 'CurrencyConverter.Api.Data.ExchangeRateDbContext'.
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: ExchangeRateCaches'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: ExchangeRateCaches'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2026-02-24 08:30:21.308 -06:00 [INF] Executed action CurrencyConverter.Api.Controllers.CurrencyController.GetLatest (CurrencyConverter.Api) in 29.4897ms
+2026-02-24 08:30:21.310 -06:00 [INF] Executed endpoint 'CurrencyConverter.Api.Controllers.CurrencyController.GetLatest (CurrencyConverter.Api)'
+2026-02-24 08:30:21.311 -06:00 [ERR] Connection id "0HNJJM4UALRNU", Request id "abd3a1f5-e9f6-4c93-9042-52faa940d53a": An unhandled exception was thrown by the application.
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: ExchangeRateCaches'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at CurrencyConverter.Api.Services.CachingCurrencyService.GetLatestAsync(String baseCurrency) in D:\Interview\currency-converter-platform\src\CurrencyConverter.Api\Services\CachingCurrencyService.cs:line 36
+   at CurrencyConverter.Api.Controllers.CurrencyController.GetLatest(String baseCurrency) in D:\Interview\currency-converter-platform\src\CurrencyConverter.Api\Controllers\CurrencyController.cs:line 31
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at CurrencyConverter.Api.Middleware.CorrelationIdMiddleware.InvokeAsync(HttpContext context) in D:\Interview\currency-converter-platform\src\CurrencyConverter.Api\Middleware\CorrelationIdMiddleware.cs:line 30
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2026-02-24 08:30:21.323 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/v1/currency/latest?baseCurrency=USD - 500 0 null 56.279ms
+2026-02-24 08:30:32.498 -06:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5000/api/v1/auth/login - null null
+2026-02-24 08:30:32.501 -06:00 [INF] CORS policy execution successful.
+2026-02-24 08:30:32.502 -06:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5000/api/v1/auth/login - 204 null null 4.1022ms
+2026-02-24 08:30:32.507 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/v1/auth/login - application/json 37
+2026-02-24 08:30:32.509 -06:00 [INF] CORS policy execution successful.
+2026-02-24 08:30:32.512 -06:00 [INF] Executing endpoint 'CurrencyConverter.Api.Controllers.AuthController.Login (CurrencyConverter.Api)'
+2026-02-24 08:30:32.515 -06:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(CurrencyConverter.Api.Controllers.LoginRequest) on controller CurrencyConverter.Api.Controllers.AuthController (CurrencyConverter.Api).
+2026-02-24 08:30:32.549 -06:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-02-24 08:30:32.556 -06:00 [INF] Executed action CurrencyConverter.Api.Controllers.AuthController.Login (CurrencyConverter.Api) in 39.0326ms
+2026-02-24 08:30:32.557 -06:00 [INF] Executed endpoint 'CurrencyConverter.Api.Controllers.AuthController.Login (CurrencyConverter.Api)'
+2026-02-24 08:30:32.558 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/api/v1/auth/login - 200 null application/json; charset=utf-8 51.9797ms
+2026-02-24 08:30:32.565 -06:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5000/api/v1/currency/latest?baseCurrency=USD - null null
+2026-02-24 08:30:32.572 -06:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5000/api/v1/currency/latest?baseCurrency=USD - null null
+2026-02-24 08:30:32.573 -06:00 [INF] CORS policy execution successful.
+2026-02-24 08:30:32.576 -06:00 [INF] CORS policy execution successful.
+2026-02-24 08:30:32.578 -06:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5000/api/v1/currency/latest?baseCurrency=USD - 204 null null 13.3911ms
+2026-02-24 08:30:32.579 -06:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5000/api/v1/currency/latest?baseCurrency=USD - 204 null null 6.6915ms
+2026-02-24 08:30:32.586 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/v1/currency/latest?baseCurrency=USD - null null
+2026-02-24 08:30:32.589 -06:00 [INF] CORS policy execution successful.
+2026-02-24 08:30:32.592 -06:00 [INF] Executing endpoint 'CurrencyConverter.Api.Controllers.CurrencyController.GetLatest (CurrencyConverter.Api)'
+2026-02-24 08:30:32.594 -06:00 [INF] Route matched with {action = "GetLatest", controller = "Currency"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLatest(System.String) on controller CurrencyConverter.Api.Controllers.CurrencyController (CurrencyConverter.Api).
+2026-02-24 08:30:32.654 -06:00 [ERR] Failed executing DbCommand (0ms) [Parameters=[@__baseCurrency_0='?' (Size = 3)], CommandType='"Text"', CommandTimeout='30']
+SELECT "e"."Id", "e"."BaseCurrency", "e"."RatesJson", "e"."Timestamp"
+FROM "ExchangeRateCaches" AS "e"
+WHERE "e"."BaseCurrency" = @__baseCurrency_0
+LIMIT 1
+2026-02-24 08:30:32.658 -06:00 [ERR] An exception occurred while iterating over the results of a query for context type 'CurrencyConverter.Api.Data.ExchangeRateDbContext'.
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: ExchangeRateCaches'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: ExchangeRateCaches'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2026-02-24 08:30:32.667 -06:00 [INF] Executed action CurrencyConverter.Api.Controllers.CurrencyController.GetLatest (CurrencyConverter.Api) in 70.9738ms
+2026-02-24 08:30:32.668 -06:00 [INF] Executed endpoint 'CurrencyConverter.Api.Controllers.CurrencyController.GetLatest (CurrencyConverter.Api)'
+2026-02-24 08:30:32.670 -06:00 [ERR] Connection id "0HNJJM4UALRNU", Request id "abd3a1f5-e9f6-4c93-9042-52faa940d53a": An unhandled exception was thrown by the application.
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: ExchangeRateCaches'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at CurrencyConverter.Api.Services.CachingCurrencyService.GetLatestAsync(String baseCurrency) in D:\Interview\currency-converter-platform\src\CurrencyConverter.Api\Services\CachingCurrencyService.cs:line 36
+   at CurrencyConverter.Api.Controllers.CurrencyController.GetLatest(String baseCurrency) in D:\Interview\currency-converter-platform\src\CurrencyConverter.Api\Controllers\CurrencyController.cs:line 31
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at CurrencyConverter.Api.Middleware.CorrelationIdMiddleware.InvokeAsync(HttpContext context) in D:\Interview\currency-converter-platform\src\CurrencyConverter.Api\Middleware\CorrelationIdMiddleware.cs:line 30
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2026-02-24 08:30:32.684 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/v1/currency/latest?baseCurrency=USD - 500 0 null 98.1745ms
+2026-02-24 08:30:32.688 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/v1/currency/latest?baseCurrency=USD - null null
+2026-02-24 08:30:32.691 -06:00 [INF] CORS policy execution successful.
+2026-02-24 08:30:32.692 -06:00 [INF] Executing endpoint 'CurrencyConverter.Api.Controllers.CurrencyController.GetLatest (CurrencyConverter.Api)'
+2026-02-24 08:30:32.693 -06:00 [INF] Route matched with {action = "GetLatest", controller = "Currency"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLatest(System.String) on controller CurrencyConverter.Api.Controllers.CurrencyController (CurrencyConverter.Api).
+2026-02-24 08:30:32.698 -06:00 [ERR] Failed executing DbCommand (0ms) [Parameters=[@__baseCurrency_0='?' (Size = 3)], CommandType='"Text"', CommandTimeout='30']
+SELECT "e"."Id", "e"."BaseCurrency", "e"."RatesJson", "e"."Timestamp"
+FROM "ExchangeRateCaches" AS "e"
+WHERE "e"."BaseCurrency" = @__baseCurrency_0
+LIMIT 1
+2026-02-24 08:30:32.701 -06:00 [ERR] An exception occurred while iterating over the results of a query for context type 'CurrencyConverter.Api.Data.ExchangeRateDbContext'.
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: ExchangeRateCaches'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: ExchangeRateCaches'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2026-02-24 08:30:32.710 -06:00 [INF] Executed action CurrencyConverter.Api.Controllers.CurrencyController.GetLatest (CurrencyConverter.Api) in 14.4702ms
+2026-02-24 08:30:32.712 -06:00 [INF] Executed endpoint 'CurrencyConverter.Api.Controllers.CurrencyController.GetLatest (CurrencyConverter.Api)'
+2026-02-24 08:30:32.713 -06:00 [ERR] Connection id "0HNJJM4UALRNU", Request id "abd3a1f5-e9f6-4c93-9042-52faa940d53a": An unhandled exception was thrown by the application.
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: ExchangeRateCaches'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at CurrencyConverter.Api.Services.CachingCurrencyService.GetLatestAsync(String baseCurrency) in D:\Interview\currency-converter-platform\src\CurrencyConverter.Api\Services\CachingCurrencyService.cs:line 36
+   at CurrencyConverter.Api.Controllers.CurrencyController.GetLatest(String baseCurrency) in D:\Interview\currency-converter-platform\src\CurrencyConverter.Api\Controllers\CurrencyController.cs:line 31
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at CurrencyConverter.Api.Middleware.CorrelationIdMiddleware.InvokeAsync(HttpContext context) in D:\Interview\currency-converter-platform\src\CurrencyConverter.Api\Middleware\CorrelationIdMiddleware.cs:line 30
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2026-02-24 08:30:32.728 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/v1/currency/latest?baseCurrency=USD - 500 0 null 39.1673ms
+2026-02-24 08:31:19.732 -06:00 [INF] Application is shutting down...
+2026-02-24 08:33:08.716 -06:00 [INF] Executed DbCommand (88ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2026-02-24 08:33:09.413 -06:00 [INF] Executed DbCommand (319ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "__EFMigrationsHistory" (
+    "MigrationId" TEXT NOT NULL CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY,
+    "ProductVersion" TEXT NOT NULL
+);
+2026-02-24 08:33:09.440 -06:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2026-02-24 08:33:09.448 -06:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2026-02-24 08:33:09.470 -06:00 [INF] Applying migration '20260224143253_InitialCreate'.
+2026-02-24 08:33:09.556 -06:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "ExchangeRateCaches" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_ExchangeRateCaches" PRIMARY KEY AUTOINCREMENT,
+    "BaseCurrency" TEXT NULL,
+    "RatesJson" TEXT NULL,
+    "Timestamp" INTEGER NOT NULL
+);
+2026-02-24 08:33:09.559 -06:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20260224143253_InitialCreate', '8.0.0');
+2026-02-24 08:33:29.067 -06:00 [INF] User profile is available. Using 'C:\Users\MOHAMMAD\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-02-24 08:33:29.219 -06:00 [INF] Now listening on: http://localhost:5000
+2026-02-24 08:33:29.225 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-02-24 08:33:29.227 -06:00 [INF] Hosting environment: Production
+2026-02-24 08:33:29.228 -06:00 [INF] Content root path: D:\Interview\currency-converter-platform\src\CurrencyConverter.Api
+2026-02-24 08:33:53.078 -06:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5000/api/v1/currency/latest?baseCurrency=USD - null null
+2026-02-24 08:33:53.078 -06:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5000/api/v1/currency/latest?baseCurrency=USD - null null
+2026-02-24 08:33:53.091 -06:00 [INF] CORS policy execution successful.
+2026-02-24 08:33:53.091 -06:00 [INF] CORS policy execution successful.
+2026-02-24 08:33:53.108 -06:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5000/api/v1/currency/latest?baseCurrency=USD - 204 null null 29.1421ms
+2026-02-24 08:33:53.108 -06:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5000/api/v1/currency/latest?baseCurrency=USD - 204 null null 29.1423ms
+2026-02-24 08:33:53.123 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/v1/currency/latest?baseCurrency=USD - null null
+2026-02-24 08:33:53.126 -06:00 [INF] CORS policy execution successful.
+2026-02-24 08:33:53.405 -06:00 [INF] Executing endpoint 'CurrencyConverter.Api.Controllers.CurrencyController.GetLatest (CurrencyConverter.Api)'
+2026-02-24 08:33:53.439 -06:00 [INF] Route matched with {action = "GetLatest", controller = "Currency"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLatest(System.String) on controller CurrencyConverter.Api.Controllers.CurrencyController (CurrencyConverter.Api).
+2026-02-24 08:33:54.561 -06:00 [INF] Executed DbCommand (50ms) [Parameters=[@__baseCurrency_0='?' (Size = 3)], CommandType='"Text"', CommandTimeout='30']
+SELECT "e"."Id", "e"."BaseCurrency", "e"."RatesJson", "e"."Timestamp"
+FROM "ExchangeRateCaches" AS "e"
+WHERE "e"."BaseCurrency" = @__baseCurrency_0
+LIMIT 1
+2026-02-24 08:33:54.590 -06:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/latest?*
+2026-02-24 08:33:54.620 -06:00 [INF] Sending HTTP request GET https://api.frankfurter.app/latest?*
+2026-02-24 08:33:55.399 -06:00 [INF] Received HTTP response headers after 774.5044ms - 200
+2026-02-24 08:33:55.405 -06:00 [INF] End processing HTTP request after 819.9368ms - 200
+2026-02-24 08:33:55.590 -06:00 [INF] Executed DbCommand (31ms) [Parameters=[@p0='?' (Size = 3), @p1='?' (Size = 377), @p2='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "ExchangeRateCaches" ("BaseCurrency", "RatesJson", "Timestamp")
+VALUES (@p0, @p1, @p2)
+RETURNING "Id";
+2026-02-24 08:33:55.851 -06:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-02-24 08:33:55.876 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/v1/currency/latest?baseCurrency=USD - null null
+2026-02-24 08:33:55.878 -06:00 [INF] Executed action CurrencyConverter.Api.Controllers.CurrencyController.GetLatest (CurrencyConverter.Api) in 2432.8358ms
+2026-02-24 08:33:55.880 -06:00 [INF] CORS policy execution successful.
+2026-02-24 08:33:55.882 -06:00 [INF] Executed endpoint 'CurrencyConverter.Api.Controllers.CurrencyController.GetLatest (CurrencyConverter.Api)'
+2026-02-24 08:33:55.888 -06:00 [INF] Executing endpoint 'CurrencyConverter.Api.Controllers.CurrencyController.GetLatest (CurrencyConverter.Api)'
+2026-02-24 08:33:55.890 -06:00 [INF] Route matched with {action = "GetLatest", controller = "Currency"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLatest(System.String) on controller CurrencyConverter.Api.Controllers.CurrencyController (CurrencyConverter.Api).
+2026-02-24 08:33:55.891 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/v1/currency/latest?baseCurrency=USD - 200 null application/json; charset=utf-8 2768.3301ms
+2026-02-24 08:33:55.898 -06:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-02-24 08:33:55.901 -06:00 [INF] Executed action CurrencyConverter.Api.Controllers.CurrencyController.GetLatest (CurrencyConverter.Api) in 8.3482ms
+2026-02-24 08:33:55.904 -06:00 [INF] Executed endpoint 'CurrencyConverter.Api.Controllers.CurrencyController.GetLatest (CurrencyConverter.Api)'
+2026-02-24 08:33:55.905 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/v1/currency/latest?baseCurrency=USD - 200 null application/json; charset=utf-8 29.5395ms
+2026-02-24 08:34:09.720 -06:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5000/api/v1/currency/latest?baseCurrency=USD - null null
+2026-02-24 08:34:09.720 -06:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5000/api/v1/currency/latest?baseCurrency=USD - null null
+2026-02-24 08:34:09.724 -06:00 [INF] CORS policy execution successful.
+2026-02-24 08:34:09.728 -06:00 [INF] CORS policy execution successful.
+2026-02-24 08:34:09.729 -06:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5000/api/v1/currency/latest?baseCurrency=USD - 204 null null 9.1813ms
+2026-02-24 08:34:09.730 -06:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5000/api/v1/currency/latest?baseCurrency=USD - 204 null null 9.2978ms
+2026-02-24 08:34:09.737 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/v1/currency/latest?baseCurrency=USD - null null
+2026-02-24 08:34:09.741 -06:00 [INF] CORS policy execution successful.
+2026-02-24 08:34:09.747 -06:00 [INF] Executing endpoint 'CurrencyConverter.Api.Controllers.CurrencyController.GetLatest (CurrencyConverter.Api)'
+2026-02-24 08:34:09.749 -06:00 [INF] Route matched with {action = "GetLatest", controller = "Currency"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLatest(System.String) on controller CurrencyConverter.Api.Controllers.CurrencyController (CurrencyConverter.Api).
+2026-02-24 08:34:09.763 -06:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-02-24 08:34:09.769 -06:00 [INF] Executed action CurrencyConverter.Api.Controllers.CurrencyController.GetLatest (CurrencyConverter.Api) in 16.1455ms
+2026-02-24 08:34:09.778 -06:00 [INF] Executed endpoint 'CurrencyConverter.Api.Controllers.CurrencyController.GetLatest (CurrencyConverter.Api)'
+2026-02-24 08:34:09.771 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/v1/currency/latest?baseCurrency=USD - null null
+2026-02-24 08:34:09.781 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/v1/currency/latest?baseCurrency=USD - 200 null application/json; charset=utf-8 43.6437ms
+2026-02-24 08:34:09.785 -06:00 [INF] CORS policy execution successful.
+2026-02-24 08:34:09.790 -06:00 [INF] Executing endpoint 'CurrencyConverter.Api.Controllers.CurrencyController.GetLatest (CurrencyConverter.Api)'
+2026-02-24 08:34:09.792 -06:00 [INF] Route matched with {action = "GetLatest", controller = "Currency"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLatest(System.String) on controller CurrencyConverter.Api.Controllers.CurrencyController (CurrencyConverter.Api).
+2026-02-24 08:34:09.797 -06:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-02-24 08:34:09.800 -06:00 [INF] Executed action CurrencyConverter.Api.Controllers.CurrencyController.GetLatest (CurrencyConverter.Api) in 5.1088ms
+2026-02-24 08:34:09.803 -06:00 [INF] Executed endpoint 'CurrencyConverter.Api.Controllers.CurrencyController.GetLatest (CurrencyConverter.Api)'
+2026-02-24 08:34:09.805 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/v1/currency/latest?baseCurrency=USD - 200 null application/json; charset=utf-8 33.3921ms
+2026-02-24 08:34:31.634 -06:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5000/api/v1/currency/convert - null null
+2026-02-24 08:34:31.637 -06:00 [INF] CORS policy execution successful.
+2026-02-24 08:34:31.638 -06:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5000/api/v1/currency/convert - 204 null null 4.162ms
+2026-02-24 08:34:31.642 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/v1/currency/convert - application/json 44
+2026-02-24 08:34:31.646 -06:00 [INF] CORS policy execution successful.
+2026-02-24 08:34:31.649 -06:00 [INF] Executing endpoint 'CurrencyConverter.Api.Controllers.CurrencyController.Convert (CurrencyConverter.Api)'
+2026-02-24 08:34:31.687 -06:00 [INF] Route matched with {action = "Convert", controller = "Currency"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Convert(CurrencyConverter.Api.Controllers.CurrencyConversionRequest) on controller CurrencyConverter.Api.Controllers.CurrencyController (CurrencyConverter.Api).
+2026-02-24 08:34:31.709 -06:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/latest?*
+2026-02-24 08:34:31.711 -06:00 [INF] Sending HTTP request GET https://api.frankfurter.app/latest?*
+2026-02-24 08:34:31.860 -06:00 [INF] Received HTTP response headers after 147.7344ms - 200
+2026-02-24 08:34:31.862 -06:00 [INF] End processing HTTP request after 153.0836ms - 200
+2026-02-24 08:34:31.866 -06:00 [INF] Executing OkObjectResult, writing value of type 'CurrencyConverter.Api.Controllers.CurrencyConversionResponse'.
+2026-02-24 08:34:31.871 -06:00 [INF] Executed action CurrencyConverter.Api.Controllers.CurrencyController.Convert (CurrencyConverter.Api) in 180.8023ms
+2026-02-24 08:34:31.872 -06:00 [INF] Executed endpoint 'CurrencyConverter.Api.Controllers.CurrencyController.Convert (CurrencyConverter.Api)'
+2026-02-24 08:34:31.874 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/api/v1/currency/convert - 200 null application/json; charset=utf-8 232.1776ms
+2026-02-24 08:34:37.643 -06:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5000/api/v1/currency/latest?baseCurrency=USD - null null
+2026-02-24 08:34:37.644 -06:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5000/api/v1/currency/latest?baseCurrency=USD - null null
+2026-02-24 08:34:37.650 -06:00 [INF] CORS policy execution successful.
+2026-02-24 08:34:37.653 -06:00 [INF] CORS policy execution successful.
+2026-02-24 08:34:37.654 -06:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5000/api/v1/currency/latest?baseCurrency=USD - 204 null null 10.2998ms
+2026-02-24 08:34:37.655 -06:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5000/api/v1/currency/latest?baseCurrency=USD - 204 null null 11.0432ms
+2026-02-24 08:34:37.660 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/v1/currency/latest?baseCurrency=USD - null null
+2026-02-24 08:34:37.665 -06:00 [INF] CORS policy execution successful.
+2026-02-24 08:34:37.666 -06:00 [INF] Executing endpoint 'CurrencyConverter.Api.Controllers.CurrencyController.GetLatest (CurrencyConverter.Api)'
+2026-02-24 08:34:37.668 -06:00 [INF] Route matched with {action = "GetLatest", controller = "Currency"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLatest(System.String) on controller CurrencyConverter.Api.Controllers.CurrencyController (CurrencyConverter.Api).
+2026-02-24 08:34:37.670 -06:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-02-24 08:34:37.671 -06:00 [INF] Executed action CurrencyConverter.Api.Controllers.CurrencyController.GetLatest (CurrencyConverter.Api) in 2.0849ms
+2026-02-24 08:34:37.673 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/v1/currency/latest?baseCurrency=USD - null null
+2026-02-24 08:34:37.673 -06:00 [INF] Executed endpoint 'CurrencyConverter.Api.Controllers.CurrencyController.GetLatest (CurrencyConverter.Api)'
+2026-02-24 08:34:37.676 -06:00 [INF] CORS policy execution successful.
+2026-02-24 08:34:37.677 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/v1/currency/latest?baseCurrency=USD - 200 null application/json; charset=utf-8 16.5774ms
+2026-02-24 08:34:37.678 -06:00 [INF] Executing endpoint 'CurrencyConverter.Api.Controllers.CurrencyController.GetLatest (CurrencyConverter.Api)'
+2026-02-24 08:34:37.681 -06:00 [INF] Route matched with {action = "GetLatest", controller = "Currency"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLatest(System.String) on controller CurrencyConverter.Api.Controllers.CurrencyController (CurrencyConverter.Api).
+2026-02-24 08:34:37.683 -06:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-02-24 08:34:37.685 -06:00 [INF] Executed action CurrencyConverter.Api.Controllers.CurrencyController.GetLatest (CurrencyConverter.Api) in 2.0722ms
+2026-02-24 08:34:37.686 -06:00 [INF] Executed endpoint 'CurrencyConverter.Api.Controllers.CurrencyController.GetLatest (CurrencyConverter.Api)'
+2026-02-24 08:34:37.687 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/v1/currency/latest?baseCurrency=USD - 200 null application/json; charset=utf-8 14.4373ms
+2026-02-24 08:34:39.308 -06:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5000/api/v1/currency/historical?baseCurrency=USD&from=&to=&page=1&pageSize=10 - null null
+2026-02-24 08:34:39.311 -06:00 [INF] CORS policy execution successful.
+2026-02-24 08:34:39.312 -06:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5000/api/v1/currency/historical?baseCurrency=USD&from=&to=&page=1&pageSize=10 - 204 null null 4.0846ms
+2026-02-24 08:34:39.316 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/v1/currency/historical?baseCurrency=USD&from=&to=&page=1&pageSize=10 - null null
+2026-02-24 08:34:39.319 -06:00 [INF] CORS policy execution successful.
+2026-02-24 08:34:39.320 -06:00 [INF] Executing endpoint 'CurrencyConverter.Api.Controllers.CurrencyController.Historical (CurrencyConverter.Api)'
+2026-02-24 08:34:39.326 -06:00 [INF] Route matched with {action = "Historical", controller = "Currency"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Historical(System.String, System.String, System.String, Int32, Int32) on controller CurrencyConverter.Api.Controllers.CurrencyController (CurrencyConverter.Api).
+2026-02-24 08:34:39.363 -06:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2026-02-24 08:34:39.386 -06:00 [INF] Executed action CurrencyConverter.Api.Controllers.CurrencyController.Historical (CurrencyConverter.Api) in 57.7233ms
+2026-02-24 08:34:39.388 -06:00 [INF] Executed endpoint 'CurrencyConverter.Api.Controllers.CurrencyController.Historical (CurrencyConverter.Api)'
+2026-02-24 08:34:39.389 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/v1/currency/historical?baseCurrency=USD&from=&to=&page=1&pageSize=10 - 400 null application/problem+json; charset=utf-8 72.5991ms
+2026-02-24 08:34:41.038 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/v1/currency/latest?baseCurrency=USD - null null
+2026-02-24 08:34:41.042 -06:00 [INF] CORS policy execution successful.
+2026-02-24 08:34:41.043 -06:00 [INF] Executing endpoint 'CurrencyConverter.Api.Controllers.CurrencyController.GetLatest (CurrencyConverter.Api)'
+2026-02-24 08:34:41.045 -06:00 [INF] Route matched with {action = "GetLatest", controller = "Currency"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLatest(System.String) on controller CurrencyConverter.Api.Controllers.CurrencyController (CurrencyConverter.Api).
+2026-02-24 08:34:41.052 -06:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-02-24 08:34:41.054 -06:00 [INF] Executed action CurrencyConverter.Api.Controllers.CurrencyController.GetLatest (CurrencyConverter.Api) in 2.9616ms
+2026-02-24 08:34:41.056 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/v1/currency/latest?baseCurrency=USD - null null
+2026-02-24 08:34:41.056 -06:00 [INF] Executed endpoint 'CurrencyConverter.Api.Controllers.CurrencyController.GetLatest (CurrencyConverter.Api)'
+2026-02-24 08:34:41.058 -06:00 [INF] CORS policy execution successful.
+2026-02-24 08:34:41.059 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/v1/currency/latest?baseCurrency=USD - 200 null application/json; charset=utf-8 20.8919ms
+2026-02-24 08:34:41.061 -06:00 [INF] Executing endpoint 'CurrencyConverter.Api.Controllers.CurrencyController.GetLatest (CurrencyConverter.Api)'
+2026-02-24 08:34:41.066 -06:00 [INF] Route matched with {action = "GetLatest", controller = "Currency"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLatest(System.String) on controller CurrencyConverter.Api.Controllers.CurrencyController (CurrencyConverter.Api).
+2026-02-24 08:34:41.068 -06:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-02-24 08:34:41.071 -06:00 [INF] Executed action CurrencyConverter.Api.Controllers.CurrencyController.GetLatest (CurrencyConverter.Api) in 3.331ms
+2026-02-24 08:34:41.073 -06:00 [INF] Executed endpoint 'CurrencyConverter.Api.Controllers.CurrencyController.GetLatest (CurrencyConverter.Api)'
+2026-02-24 08:34:41.074 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/v1/currency/latest?baseCurrency=USD - 200 null application/json; charset=utf-8 17.9866ms
+2026-02-24 08:34:42.596 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/v1/currency/latest?baseCurrency=USD - null null
+2026-02-24 08:34:42.598 -06:00 [INF] CORS policy execution successful.
+2026-02-24 08:34:42.600 -06:00 [INF] Executing endpoint 'CurrencyConverter.Api.Controllers.CurrencyController.GetLatest (CurrencyConverter.Api)'
+2026-02-24 08:34:42.602 -06:00 [INF] Route matched with {action = "GetLatest", controller = "Currency"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLatest(System.String) on controller CurrencyConverter.Api.Controllers.CurrencyController (CurrencyConverter.Api).
+2026-02-24 08:34:42.606 -06:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-02-24 08:34:42.608 -06:00 [INF] Executed action CurrencyConverter.Api.Controllers.CurrencyController.GetLatest (CurrencyConverter.Api) in 2.8596ms
+2026-02-24 08:34:42.610 -06:00 [INF] Executed endpoint 'CurrencyConverter.Api.Controllers.CurrencyController.GetLatest (CurrencyConverter.Api)'
+2026-02-24 08:34:42.611 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/v1/currency/latest?baseCurrency=USD - 200 null application/json; charset=utf-8 15.6947ms
+2026-02-24 08:34:54.907 -06:00 [INF] Application is shutting down...

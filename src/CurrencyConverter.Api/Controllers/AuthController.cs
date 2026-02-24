@@ -22,7 +22,7 @@ namespace CurrencyConverter.Api.Controllers
         public IActionResult Login([FromBody] LoginRequest req)
         {
             // Very simple in-memory validation for demo/interview
-            if (req.Username == "user" && req.Password == "password")
+            if (req.Username == "demo" && req.Password == "demo")
             {
                 var token = _tokenService.GenerateToken(req.Username, new[] { "User" });
                 return Ok(new { access_token = token });
