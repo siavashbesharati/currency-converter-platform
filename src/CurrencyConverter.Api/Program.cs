@@ -6,6 +6,9 @@ using CurrencyConverter.Api;
 
 using Microsoft.AspNetCore.Mvc;
 
+using Microsoft.AspNetCore.RateLimiting;
+using System.Threading.RateLimiting;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Configure Serilog
@@ -26,12 +29,25 @@ builder.Services.AddApiVersioning(options =>
     options.ReportApiVersions = true;
 });
 
+builder.Services.AddRateLimiter(options =>
+{
+    options.AddFixedWindowLimiter("fixed", opt =>
+    {
+        opt.PermitLimit = 100;
+        opt.Window = System.TimeSpan.FromMinutes(1);
+        opt.QueueProcessingOrder = QueueProcessingOrder.OldestFirst;
+        opt.QueueLimit = 5;
+    });
+});
+
 var app = builder.Build();
 
     if (app.Environment.IsDevelopment())
     {
         // Swagger not configured (Swashbuckle not referenced). Add if desired.
     }
+
+app.UseRateLimiter();
 
 app.UseRouting();
 app.UseAuthentication();

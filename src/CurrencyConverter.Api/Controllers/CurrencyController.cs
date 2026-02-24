@@ -3,10 +3,13 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using CurrencyConverter.Api.Services;
 
+using Microsoft.AspNetCore.RateLimiting;
+
 namespace CurrencyConverter.Api.Controllers
 {
     [ApiController]
     [ApiVersion("1.0")]
+    [EnableRateLimiting("fixed")]
     [Route("api/v{version:apiVersion}/[controller]")]
     public class CurrencyController : ControllerBase
     {
