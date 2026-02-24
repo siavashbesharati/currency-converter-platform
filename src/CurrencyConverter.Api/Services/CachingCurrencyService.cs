@@ -1,18 +1,23 @@
+namespace CurrencyConverter.Api.Services
+{
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Caching.Memory;
+using System.Text.Json;
+using CurrencyConverter.Api.Data;
+using Microsoft.EntityFrameworkCore;
 
-namespace CurrencyConverter.Api.Services
-{
     public class CachingCurrencyService : ICurrencyService
     {
         private readonly ICurrencyService _innerService;
         private readonly IMemoryCache _memoryCache;
+        private readonly ExchangeRateDbContext _dbContext;
 
-        public CachingCurrencyService(ICurrencyService innerService, IMemoryCache memoryCache)
+        public CachingCurrencyService(ICurrencyService innerService, IMemoryCache memoryCache, ExchangeRateDbContext dbContext)
         {
             _innerService = innerService;
             _memoryCache = memoryCache;
+            _dbContext = dbContext;
         }
 
         public async Task<IDictionary<string, decimal>> GetLatestAsync(string baseCurrency)
@@ -23,7 +28,36 @@ namespace CurrencyConverter.Api.Services
                 return rates;
             }
 
+            if(_dbContext.ExchangeRateCaches is null)
+            {
+                // Should not happen, but satisfies nullable check
+                return await _innerService.GetLatestAsync(baseCurrency);
+            }
+            var dbCache = await _dbContext.ExchangeRateCaches.FirstOrDefaultAsync(c => c.BaseCurrency == baseCurrency);
+            if (dbCache is not null && !string.IsNullOrEmpty(dbCache.RatesJson))
+            {
+                var cachedRates = JsonSerializer.Deserialize<IDictionary<string, decimal>>(dbCache.RatesJson);
+                if (cachedRates is not null)
+                {
+                    _memoryCache.Set(cacheKey, cachedRates, System.TimeSpan.FromMinutes(10));
+                    return cachedRates;
+                }
+            }
+
             var result = await _innerService.GetLatestAsync(baseCurrency);
+            
+            var newDbCache = new ExchangeRateCache
+            {
+                BaseCurrency = baseCurrency,
+                RatesJson = JsonSerializer.Serialize(result),
+                Timestamp = System.DateTimeOffset.UtcNow.ToUnixTimeSeconds()
+            };
+            if(_dbContext.ExchangeRateCaches is not null)
+            {
+                _dbContext.ExchangeRateCaches.Add(newDbCache);
+                await _dbContext.SaveChangesAsync();
+            }
+
             _memoryCache.Set(cacheKey, result, System.TimeSpan.FromMinutes(10));
             return result;
         }

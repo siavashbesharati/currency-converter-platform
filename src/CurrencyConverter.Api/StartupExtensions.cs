@@ -21,7 +21,7 @@ namespace CurrencyConverter.Api
         {
             services.AddScoped<CurrencyService>();
             services.AddScoped<ICurrencyService, CachingCurrencyService>(s => 
-                new CachingCurrencyService(s.GetRequiredService<CurrencyService>(), s.GetRequiredService<Microsoft.Extensions.Caching.Memory.IMemoryCache>()));
+                new CachingCurrencyService(s.GetRequiredService<CurrencyService>(), s.GetRequiredService<Microsoft.Extensions.Caching.Memory.IMemoryCache>(), s.GetRequiredService<ExchangeRateDbContext>()));
             services.AddSingleton<TokenService>();
 
             return services;
