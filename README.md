@@ -39,13 +39,13 @@ docker-compose up --build
 
 The frontend will be available at `http://localhost:8080`.
 
-### Running Locally
+### Running Locally (without Docker)
 
-You can also run the backend and frontend separately.
+You can also run the backend and frontend separately without using Docker.
 
 #### Backend
 
-```
+```bash
 # from repo root
 dotnet run --project src/CurrencyConverter.Api
 ```
@@ -54,13 +54,27 @@ The API will be available at `http://localhost:5000`.
 
 #### Frontend
 
-```
+```bash
 cd client
 npm install
 npm run dev
 ```
 
 The frontend will be available at `http://localhost:3000`.
+
+## Running Tests
+
+### Backend Tests
+
+To run the backend unit and integration tests, use the following command from the root of the repository:
+
+```bash
+dotnet test
+```
+
+### Frontend Tests
+
+There are currently no frontend tests.
 
 ## AI Usage
 
