@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using CurrencyConverter.Api.Auth;
 
 namespace CurrencyConverter.Api.Controllers
 {
