@@ -6,6 +6,8 @@ import { FaCalendarAlt, FaAngleLeft, FaAngleRight } from 'react-icons/fa';
 export default function Historical() {
     const [baseCurrency, setBaseCurrency] = useState({ value: 'USD', label: 'USD' });
     const [currencies, setCurrencies] = useState<{ value: string, label: string }[]>([]);
+    const [currenciesLoading, setCurrenciesLoading] = useState(false);
+    const [historicalLoading, setHistoricalLoading] = useState(false);
     const [fromDate, setFromDate] = useState('');
     const [toDate, setToDate] = useState('');
     const [page, setPage] = useState(1);
@@ -17,11 +19,14 @@ export default function Historical() {
     useEffect(() => {
         const fetchCurrencies = async () => {
             try {
+                setCurrenciesLoading(true);
                 const response = await api.get('/currency/latest?baseCurrency=USD');
                 const currencyOptions = ['USD', ...Object.keys(response.data.rates)].map(c => ({ value: c, label: c }));
                 setCurrencies(currencyOptions);
             } catch (e) {
                 console.error('Failed to fetch currencies', e);
+            } finally {
+                setCurrenciesLoading(false);
             }
         };
         fetchCurrencies();
@@ -30,11 +35,14 @@ export default function Historical() {
     const getHistoricalRates = async (newPage = page) => {
         setError(null);
         try {
+            setHistoricalLoading(true);
             const response = await api.get(`/currency/historical?baseCurrency=${baseCurrency.value}&from=${fromDate}&to=${toDate}&page=${newPage}&pageSize=${pageSize}`);
             setHistoricalRates(response.data.items);
             setTotal(response.data.total);
         } catch (e: any) {
             setError(e?.response?.data?.error || e.message);
+        } finally {
+            setHistoricalLoading(false);
         }
     };
     
@@ -58,10 +66,10 @@ export default function Historical() {
         <div style={{ padding: 20 }}>
             <h2>Historical Rates</h2>
             <div className="form-row">
-                <Select options={currencies} value={baseCurrency} onChange={(selected) => setBaseCurrency(selected as any)} />
+                {currenciesLoading ? <div>Loading currencies...</div> : <Select options={currencies} value={baseCurrency} onChange={(selected) => setBaseCurrency(selected as any)} />}
                 <input type="date" value={fromDate} onChange={e => setFromDate(e.target.value)} />
                 <input type="date" value={toDate} onChange={e => setToDate(e.target.value)} />
-                <button onClick={() => getHistoricalRates(1)}><FaCalendarAlt /> Get Historical Rates</button>
+                <button className="btn-outline" onClick={() => getHistoricalRates(1)} disabled={historicalLoading || currenciesLoading}>{historicalLoading ? 'Loading...' : (<><FaCalendarAlt /> Get Historical Rates</>)}</button>
             </div>
             {error && <div className="error">Error: {error}</div>}
             {historicalRates.length > 0 && (
@@ -89,9 +97,9 @@ export default function Historical() {
                         </tbody>
                     </table>
                     <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: '1rem' }}>
-                        <button onClick={handlePrevPage} disabled={page === 1}><FaAngleLeft /> Previous</button>
+                        <button className="btn-outline" onClick={handlePrevPage} disabled={page === 1}><FaAngleLeft /> Previous</button>
                         <span style={{ margin: '0 1rem' }}>Page {page} of {Math.ceil(total / pageSize)}</span>
-                        <button onClick={handleNextPage} disabled={page * pageSize >= total}><FaAngleRight /> Next</button>
+                        <button className="btn-outline" onClick={handleNextPage} disabled={page * pageSize >= total}><FaAngleRight /> Next</button>
                     </div>
                 </div>
             )}

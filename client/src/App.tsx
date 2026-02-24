@@ -2,22 +2,27 @@ import React, { useState } from 'react';
 import { login, logout, isLoggedIn } from './api/ApiClient';
 import Converter from './pages/Converter';
 import Historical from './pages/Historical';
-import { FaSignOutAlt, FaSignInAlt } from 'react-icons/fa';
+import Latest from './pages/Latest';
+import { FaSignOutAlt, FaSignInAlt, FaExchangeAlt, FaRegChartBar, FaCalendarAlt } from 'react-icons/fa';
 
 export default function App() {
   const [loggedIn, setLoggedIn] = useState(isLoggedIn());
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
+  const [loginLoading, setLoginLoading] = useState(false);
   const [page, setPage] = useState('converter');
 
   const handleLogin = async (e: React.FormEvent) => {
     e.preventDefault();
     try {
+      setLoginLoading(true);
       await login(username, password);
       setLoggedIn(true);
     } catch (error) {
       console.error('Login failed', error);
       alert('Login failed. Please check the console for details.');
+    } finally {
+      setLoginLoading(false);
     }
   };
 
@@ -40,7 +45,7 @@ export default function App() {
             <label>Password</label>
             <input type="password" value={password} onChange={e => setPassword(e.target.value)} />
           </div>
-          <button type="submit"><FaSignInAlt/> Login</button>
+          <button type="submit" className="btn-outline" disabled={loginLoading}>{loginLoading ? 'Logging in...' : (<><FaSignInAlt/> Login</>)}</button>
         </form>
       </div>
     );
@@ -50,15 +55,18 @@ export default function App() {
     <div>
         <div style={{display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '2rem'}}>
             <h1>Currency Converter</h1>
-            <button onClick={handleLogout}><FaSignOutAlt/> Logout</button>
+                <button className="btn-outline" onClick={handleLogout}><FaSignOutAlt/> Logout</button>
         </div>
       
-      <div style={{marginBottom: '2rem'}}>
-        <button onClick={() => setPage('converter')} disabled={page === 'converter'}>Converter</button>
-        <button onClick={() => setPage('historical')} disabled={page === 'historical'}>Historical</button>
-      </div>
-      
-      {page === 'converter' ? <Converter /> : <Historical />}
+          <div className="menu" style={{marginBottom: '2rem'}}>
+            <button className="btn-outline" onClick={() => setPage('converter')} disabled={page === 'converter'}><FaExchangeAlt/> 🔁 Converter</button>
+            <button className="btn-outline" onClick={() => setPage('latest')} disabled={page === 'latest'}><FaRegChartBar/> 📈 Latest</button>
+            <button className="btn-outline" onClick={() => setPage('historical')} disabled={page === 'historical'}><FaCalendarAlt/> 🕰️ Historical</button>
+          </div>
+
+          {page === 'converter' && <Converter />}
+          {page === 'latest' && <Latest />}
+          {page === 'historical' && <Historical />}
     </div>
   );
 }

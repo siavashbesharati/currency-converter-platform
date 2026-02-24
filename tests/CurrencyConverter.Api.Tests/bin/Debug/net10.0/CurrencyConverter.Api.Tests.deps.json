@@ -39,9 +39,10 @@
       "CurrencyConverter.Api.Tests/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.Testing": "10.0.3",
+          "Microsoft.EntityFrameworkCore.InMemory": "8.0.0",
           "Microsoft.NET.Test.Sdk": "17.14.1",
           "Moq": "4.20.72",
-          "coverlet.collector": "6.0.4",
+          "coverlet.collector": "8.0.0",
           "currency-converter-platform.backend": "1.0.0",
           "xunit": "2.9.3",
           "xunit.runner.visualstudio": "3.1.4",
@@ -449,6 +450,20 @@
         },
         "compile": {
           "lib/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.EntityFrameworkCore.InMemory/8.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "8.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.EntityFrameworkCore.InMemory.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.EntityFrameworkCore.InMemory.dll": {}
         }
       },
       "Microsoft.EntityFrameworkCore.Relational/8.0.0": {
@@ -3466,7 +3481,7 @@
         },
         "compileOnly": true
       },
-      "coverlet.collector/6.0.4": {
+      "coverlet.collector/8.0.0": {
         "compileOnly": true
       },
       "Microsoft.AspNetCore.RateLimiting/7.0.0-rc.2.22476.2": {
@@ -3575,6 +3590,13 @@
       "sha512": "sha512-VR22s3+zoqlVI7xauFKn1znSIFHO8xuILT+noSwS8bZCKcHz0ydkTDQMuaxSa5WBaQrZmwtTz9rmRvJ7X8mSPQ==",
       "path": "microsoft.entityframeworkcore.abstractions/8.0.0",
       "hashPath": "microsoft.entityframeworkcore.abstractions.8.0.0.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.InMemory/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/pT9FOO0BxGSRscK/ekEb6TdiP3+nnyhPLElE1yuVG/QaZLaBAuM3RoywBHdIxWoFALaOS7ktXlKzuMX3khJ4A==",
+      "path": "microsoft.entityframeworkcore.inmemory/8.0.0",
+      "hashPath": "microsoft.entityframeworkcore.inmemory.8.0.0.nupkg.sha512"
     },
     "Microsoft.EntityFrameworkCore.Relational/8.0.0": {
       "type": "package",
@@ -5452,12 +5474,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "coverlet.collector/6.0.4": {
+    "coverlet.collector/8.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-lkhqpF8Pu2Y7IiN7OntbsTtdbpR1syMsm2F3IgX6ootA4ffRqWL5jF7XipHuZQTdVuWG/gVAAcf8mjk8Tz0xPg==",
-      "path": "coverlet.collector/6.0.4",
-      "hashPath": "coverlet.collector.6.0.4.nupkg.sha512"
+      "sha512": "sha512-EMkj/2F6n6IVPrvGYkqzGJs6phuGGkq6N+E7KW9rNyzNxXbwQ1KfMqWyXNf9nCNEQOA6IjFwmOLvkriwKE7Orw==",
+      "path": "coverlet.collector/8.0.0",
+      "hashPath": "coverlet.collector.8.0.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore.RateLimiting/7.0.0-rc.2.22476.2": {
       "type": "package",

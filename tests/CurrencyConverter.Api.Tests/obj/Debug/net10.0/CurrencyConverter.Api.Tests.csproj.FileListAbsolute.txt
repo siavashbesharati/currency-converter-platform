@@ -469,3 +469,4 @@ D:\Interview\currency-converter-platform\tests\CurrencyConverter.Api.Tests\bin\D
 D:\Interview\currency-converter-platform\tests\CurrencyConverter.Api.Tests\bin\Debug\net10.0\Microsoft.Extensions.Logging.EventSource.dll
 D:\Interview\currency-converter-platform\tests\CurrencyConverter.Api.Tests\bin\Debug\net10.0\System.Diagnostics.EventLog.dll
 D:\Interview\currency-converter-platform\tests\CurrencyConverter.Api.Tests\bin\Debug\net10.0\runtimes\win\lib\net10.0\System.Diagnostics.EventLog.dll
+D:\Interview\currency-converter-platform\tests\CurrencyConverter.Api.Tests\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.InMemory.dll

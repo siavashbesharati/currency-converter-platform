@@ -12,6 +12,7 @@ using Microsoft.IdentityModel.Tokens;
 using Polly;
 using Polly.Extensions.Http;
 using System.Net.Http;
+using Microsoft.Extensions.Logging;
 
 using Microsoft.AspNetCore.Mvc;
 
@@ -38,7 +39,8 @@ namespace CurrencyConverter.Api
             services.AddDbContext<ExchangeRateDbContext>(opts => opts.UseSqlite(conn));
 
             // Register Frankfurter provider HttpClient with Polly resilience
-            static IAsyncPolicy<HttpResponseMessage> GetRetryPolicy()
+            // Build Polly policies with logging hooks
+            static IAsyncPolicy<HttpResponseMessage> GetRetryPolicy(ILogger logger)
             {
                 return HttpPolicyExtensions
                     .HandleTransientHttpError()
@@ -46,23 +48,29 @@ namespace CurrencyConverter.Api
                         TimeSpan.FromSeconds(1),
                         TimeSpan.FromSeconds(2),
                         TimeSpan.FromSeconds(4)
+                    }, onRetry: (outcome, timespan, retryAttempt, context) => {
+                        logger.LogWarning("Frankfurter retry {Attempt} after {Delay} due to {Reason}", retryAttempt, timespan, outcome.Exception?.Message ?? outcome.Result?.StatusCode.ToString());
                     });
             }
 
-            static IAsyncPolicy<HttpResponseMessage> GetCircuitBreakerPolicy()
+            static IAsyncPolicy<HttpResponseMessage> GetCircuitBreakerPolicy(ILogger logger)
             {
                 return HttpPolicyExtensions
                     .HandleTransientHttpError()
-                    .CircuitBreakerAsync(2, TimeSpan.FromSeconds(30));
+                    .CircuitBreakerAsync(2, TimeSpan.FromSeconds(30), onBreak: (outcome, ts) => {
+                        logger.LogWarning("Frankfurter circuit opened for {Duration} due to {Reason}", ts, outcome.Exception?.Message ?? outcome.Result?.StatusCode.ToString());
+                    }, onReset: () => {
+                        logger.LogInformation("Frankfurter circuit closed/reset");
+                    });
             }
 
             services.AddHttpClient<FrankfurterProvider>(client =>
             {
                 client.BaseAddress = new Uri("https://api.frankfurter.app/");
-                client.Timeout = TimeSpan.FromSeconds(120);
+                client.Timeout = TimeSpan.FromSeconds(30);
             })
-            .AddPolicyHandler(GetRetryPolicy())
-            .AddPolicyHandler(GetCircuitBreakerPolicy());
+            .AddPolicyHandler((sp, req) => GetRetryPolicy(sp.GetRequiredService<ILogger<FrankfurterProvider>>() ))
+            .AddPolicyHandler((sp, req) => GetCircuitBreakerPolicy(sp.GetRequiredService<ILogger<FrankfurterProvider>>() ));
 
             services.AddScoped<IExchangeRateProvider>(sp => sp.GetRequiredService<FrankfurterProvider>());
 

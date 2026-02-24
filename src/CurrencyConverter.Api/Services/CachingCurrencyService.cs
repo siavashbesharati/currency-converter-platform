@@ -44,8 +44,28 @@ using Microsoft.EntityFrameworkCore;
                 }
             }
 
-            var result = await _innerService.GetLatestAsync(baseCurrency);
-            
+            IDictionary<string, decimal> result;
+            try
+            {
+                result = await _innerService.GetLatestAsync(baseCurrency);
+            }
+            catch (Polly.CircuitBreaker.BrokenCircuitException)
+            {
+                // Circuit is open - try to return DB cached value if present
+                if (dbCache is not null && !string.IsNullOrEmpty(dbCache.RatesJson))
+                {
+                    var cachedRates = JsonSerializer.Deserialize<IDictionary<string, decimal>>(dbCache.RatesJson);
+                    if (cachedRates is not null)
+                    {
+                        _memoryCache.Set(cacheKey, cachedRates, System.TimeSpan.FromMinutes(10));
+                        return cachedRates;
+                    }
+                }
+
+                // No cached DB value - rethrow to surface error
+                throw;
+            }
+
             var newDbCache = new ExchangeRateCache
             {
                 BaseCurrency = baseCurrency,

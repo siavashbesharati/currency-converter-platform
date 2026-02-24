@@ -31,6 +31,11 @@ namespace CurrencyConverter.Api.Tests
                 builder.ConfigureServices(services =>
                 {
                     services.AddScoped<IExchangeRateProvider>(_ => mockProvider.Object);
+                    // Use the real CurrencyService (no caching wrapper) for controller tests to avoid DB dependencies
+                    services.AddScoped<CurrencyConverter.Api.Services.CurrencyService>();
+                    services.AddScoped<CurrencyConverter.Api.Services.ICurrencyService, CurrencyConverter.Api.Services.CurrencyService>();
+                    services.AddAuthentication(options => { options.DefaultAuthenticateScheme = "Test"; options.DefaultChallengeScheme = "Test"; })
+                        .AddScheme<Microsoft.AspNetCore.Authentication.AuthenticationSchemeOptions, TestAuthHandler>("Test", options => { });
                 });
             }).CreateClient();
 
@@ -55,6 +60,10 @@ namespace CurrencyConverter.Api.Tests
                 builder.ConfigureServices(services =>
                 {
                     services.AddScoped<IExchangeRateProvider>(_ => mockProvider.Object);
+                    services.AddScoped<CurrencyConverter.Api.Services.CurrencyService>();
+                    services.AddScoped<CurrencyConverter.Api.Services.ICurrencyService, CurrencyConverter.Api.Services.CurrencyService>();
+                    services.AddAuthentication(options => { options.DefaultAuthenticateScheme = "Test"; options.DefaultChallengeScheme = "Test"; })
+                        .AddScheme<Microsoft.AspNetCore.Authentication.AuthenticationSchemeOptions, TestAuthHandler>("Test", options => { });
                 });
             }).CreateClient();
 

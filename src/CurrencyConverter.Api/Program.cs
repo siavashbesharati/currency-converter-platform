@@ -68,6 +68,7 @@ var app = builder.Build();
 app.UseCors(MyAllowSpecificOrigins);
 
 app.UseMiddleware<CorrelationIdMiddleware>();
+app.UseMiddleware<CurrencyConverter.Api.Middleware.RequestLoggingMiddleware>();
 app.UseRateLimiter();
 
 app.UseRouting();

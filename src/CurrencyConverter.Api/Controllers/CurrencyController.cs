@@ -33,6 +33,7 @@ namespace CurrencyConverter.Api.Controllers
         }
 
         [HttpPost("convert")]
+        [Authorize(Roles = "User")]
         public async Task<IActionResult> Convert([FromBody] CurrencyConversionRequest req)
         {
             if (IsExcluded(req.Source) || IsExcluded(req.Target))
