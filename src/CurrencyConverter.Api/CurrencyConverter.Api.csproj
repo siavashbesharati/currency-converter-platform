@@ -4,6 +4,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <PackageId>currency-converter-platform.backend</PackageId>
+    <InternalsVisibleTo>CurrencyConverter.Api.Tests</InternalsVisibleTo>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="5.1.0" />

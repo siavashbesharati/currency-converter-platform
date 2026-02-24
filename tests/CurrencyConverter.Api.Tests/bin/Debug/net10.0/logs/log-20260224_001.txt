@@ -1,0 +1,11 @@
+2026-02-24 07:20:42.437 -06:00 [INF] User profile is available. Using 'C:\Users\MOHAMMAD\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-02-24 07:20:42.504 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-02-24 07:20:42.505 -06:00 [INF] Hosting environment: Development
+2026-02-24 07:20:42.505 -06:00 [INF] Content root path: D:\Interview\currency-converter-platform\src\CurrencyConverter.Api
+2026-02-24 07:20:42.552 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost/api/v1/currency/convert - application/json; charset=utf-8 44
+2026-02-24 07:20:42.563 -06:00 [INF] Executing endpoint 'CurrencyConverter.Api.Controllers.CurrencyController.Convert (CurrencyConverter.Api)'
+2026-02-24 07:20:42.575 -06:00 [INF] Route matched with {action = "Convert", controller = "Currency"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Convert(CurrencyConverter.Api.Controllers.CurrencyConversionRequest) on controller CurrencyConverter.Api.Controllers.CurrencyController (CurrencyConverter.Api).
+2026-02-24 07:20:42.617 -06:00 [INF] Executing OkObjectResult, writing value of type 'CurrencyConverter.Api.Controllers.CurrencyConversionResponse'.
+2026-02-24 07:20:42.627 -06:00 [INF] Executed action CurrencyConverter.Api.Controllers.CurrencyController.Convert (CurrencyConverter.Api) in 50.9027ms
+2026-02-24 07:20:42.627 -06:00 [INF] Executed endpoint 'CurrencyConverter.Api.Controllers.CurrencyController.Convert (CurrencyConverter.Api)'
+2026-02-24 07:20:42.628 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost/api/v1/currency/convert - 200 null application/json; charset=utf-8 75.9083ms

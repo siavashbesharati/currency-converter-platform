@@ -37,8 +37,8 @@ Frontend
 
 Testing & quality
 
-- [ ] **Unit tests:** add xUnit unit tests targeting `CurrencyService`, provider parsing, and excluded-currency validation; aim for >= 90% coverage.
-- [ ] **Integration tests:** mock Frankfurter (HttpMessageHandler or WireMock) to test end-to-end behavior.
+- [x] **Unit tests:** add xUnit unit tests targeting `CurrencyService`, provider parsing, and excluded-currency validation; aim for >= 90% coverage.
+- [x] **Integration tests:** mock Frankfurter (HttpMessageHandler or WireMock) to test end-to-end behavior.
 - [ ] **Coverage reports:** integrate coverlet and produce reports in CI.
 
 DevOps & deployment
