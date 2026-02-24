@@ -24,7 +24,7 @@ Core backend wiring
 - [ ] **Implement provider factory & provider DI:** ensure `ExchangeRateProviderFactory` can produce providers; register `FrankfurterProvider` and allow future providers.
 - [x] **Implement caching:** EF Core-backed cache (`ExchangeRateCache`) + short-lived in-memory TTL caching for latest rates; cache fallback on provider failures.
 - [ ] **Finish controllers to use services:** update `CurrencyController` to call `ICurrencyService` for `latest`, `convert`, `historical` (with pagination) and keep excluded-currencies validation.
-- [ ] **Rate limiting & versioning:** add ASP.NET Core rate-limiting middleware and API versioning (e.g., `api/v1/*`).
+- [x] **Rate limiting & versioning:** add ASP.NET Core rate-limiting middleware and API versioning (e.g., `api/v1/*`). (API versioning implemented)
 - [ ] **Logging & correlation:** configure Serilog using `appsettings.json` and add correlation id propagation for internal HTTP calls; log client IP, client ID (from JWT), method, endpoint, status, and latency.
 
 Frontend

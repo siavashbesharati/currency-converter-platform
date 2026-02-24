@@ -13,6 +13,8 @@ using Polly;
 using Polly.Extensions.Http;
 using System.Net.Http;
 
+using Microsoft.AspNetCore.Mvc;
+
 namespace CurrencyConverter.Api
 {
     public static class StartupExtensions

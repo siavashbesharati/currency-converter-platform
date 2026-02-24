@@ -4,7 +4,8 @@ using CurrencyConverter.Api.Auth;
 namespace CurrencyConverter.Api.Controllers
 {
     [ApiController]
-    [Route("api/v1/[controller]")]
+    [ApiVersion("1.0")]
+    [Route("api/v{version:apiVersion}/[controller]")]
     public class AuthController : ControllerBase
     {
         private readonly TokenService _tokenService;

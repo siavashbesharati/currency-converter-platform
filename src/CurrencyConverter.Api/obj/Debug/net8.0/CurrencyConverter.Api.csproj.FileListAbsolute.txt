@@ -92,3 +92,5 @@ D:\Interview\currency-converter-platform\src\CurrencyConverter.Api\bin\Debug\net
 D:\Interview\currency-converter-platform\src\CurrencyConverter.Api\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
 D:\Interview\currency-converter-platform\src\CurrencyConverter.Api\bin\Debug\net8.0\Polly.Extensions.Http.dll
 D:\Interview\currency-converter-platform\src\CurrencyConverter.Api\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+D:\Interview\currency-converter-platform\src\CurrencyConverter.Api\obj\Debug\net8.0\CurrencyConverter.Api.MvcApplicationPartsAssemblyInfo.cs
+D:\Interview\currency-converter-platform\src\CurrencyConverter.Api\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.Versioning.dll

@@ -6,7 +6,8 @@ using CurrencyConverter.Api.Services;
 namespace CurrencyConverter.Api.Controllers
 {
     [ApiController]
-    [Route("api/v1/[controller]")]
+    [ApiVersion("1.0")]
+    [Route("api/v{version:apiVersion}/[controller]")]
     public class CurrencyController : ControllerBase
     {
         private static readonly string[] Excluded = new[] { "TRY", "PLN", "THB", "MXN" };
