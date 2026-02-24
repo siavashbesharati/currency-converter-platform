@@ -33,7 +33,7 @@ Frontend
 - [x] **Converter page:** build `Converter.tsx` with amount/source/target, excluded-currency validation, loading states, and friendly errors.
 - [x] **Latest rates view:** build rates UI for a selected base currency.
 - [x] **Historical rates view:** date-range selector + paginated results; wire to backend pagination.
-- [ ] **Type safety & tests:** use TypeScript types and add component tests for core flows.
+- [x] **Type safety & tests:** use TypeScript types and add component tests for core flows.
 
 Testing & quality
 
@@ -45,21 +45,21 @@ DevOps & deployment
 
 - [x] **Dockerfiles & compose:** add backend/frontend Dockerfiles and `docker-compose` for local dev (SQLite or Postgres service as option).
 - [x] **CI workflow:** complete `.github/workflows/ci.yml` to build, test, and publish coverage artifacts.
-- [ ] **Environment support:** add appsettings.*.json for Dev/Test/Prod and document env var overrides.
-- [ ] **Deployment guidance:** document horizontal scaling concerns, DB choice, and secrets management.
+- [x] **Environment support:** add appsettings.*.json for Dev/Test/Prod and document env var overrides.
+- [x] **Deployment guidance:** document horizontal scaling concerns, DB choice, and secrets management.
 
 Security & housekeeping
 
-- [ ] **Replace JWT placeholder secret:** ensure secure secret management (local dev vs prod instructions).
-- [ ] **Review exposed configs:** ensure no secrets checked into repo and document what must be set.
+- [x] **Replace JWT placeholder secret:** ensure secure secret management (local dev vs prod instructions).
+- [x] **Review exposed configs:** ensure no secrets checked into repo and document what must be set.
 
 Docs & AI usage
 
-- [ ] **README:** add setup instructions, architecture overview, AI-usage notes (what AI suggested, what was accepted/changed), assumptions, and future improvements.
+- [x] **README:** add setup instructions, architecture overview, AI-usage notes (what AI suggested, what was accepted/changed), assumptions, and future improvements.
 
 Verification & run
 
-- [ ] **Local run & smoke tests:** run backend and frontend; verify endpoints:
+- [x] **Local run & smoke tests:** run backend and frontend; verify endpoints:
   - `POST /api/v1/auth/login` -> get token
   - `GET /api/v1/currency/latest?base=EUR`
   - `POST /api/v1/currency/convert`
