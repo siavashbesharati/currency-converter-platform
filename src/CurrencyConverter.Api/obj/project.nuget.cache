@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HRhssMFX08M=",
+  "dgSpecHash": "quXaaJHYtI4=",
   "success": true,
-  "projectFilePath": "D:\\Interview\\src\\CurrencyConverter.Api\\CurrencyConverter.Api.csproj",
+  "projectFilePath": "D:\\Interview\\currency-converter-platform\\src\\CurrencyConverter.Api\\CurrencyConverter.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MOHAMMAD\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\8.0.0\\microsoft.aspnetcore.authentication.jwtbearer.8.0.0.nupkg.sha512",
     "C:\\Users\\MOHAMMAD\\.nuget\\packages\\microsoft.data.sqlite.core\\8.0.0\\microsoft.data.sqlite.core.8.0.0.nupkg.sha512",
