@@ -19,7 +19,9 @@ namespace CurrencyConverter.Api
     {
         public static IServiceCollection AddApplication(this IServiceCollection services)
         {
-            services.AddScoped<ICurrencyService, CurrencyService>();
+            services.AddScoped<CurrencyService>();
+            services.AddScoped<ICurrencyService, CachingCurrencyService>(s => 
+                new CachingCurrencyService(s.GetRequiredService<CurrencyService>(), s.GetRequiredService<Microsoft.Extensions.Caching.Memory.IMemoryCache>()));
             services.AddSingleton<TokenService>();
 
             return services;
@@ -27,6 +29,7 @@ namespace CurrencyConverter.Api
 
         public static IServiceCollection AddInfrastructure(this IServiceCollection services, IConfiguration configuration)
         {
+            services.AddMemoryCache();
             // DbContext (SQLite by default)
             var conn = configuration.GetConnectionString("DefaultConnection") ?? "Data Source=currency.db";
             services.AddDbContext<ExchangeRateDbContext>(opts => opts.UseSqlite(conn));
