@@ -10,6 +10,7 @@ using CurrencyConverter.Api.Auth;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using Polly;
+using Polly.Extensions.Http;
 using System.Net.Http;
 
 namespace CurrencyConverter.Api
@@ -33,9 +34,8 @@ namespace CurrencyConverter.Api
             // Register Frankfurter provider HttpClient with Polly resilience
             static IAsyncPolicy<HttpResponseMessage> GetRetryPolicy()
             {
-                return Policy<HttpResponseMessage>
-                    .Handle<HttpRequestException>()
-                    .OrResult(msg => !msg.IsSuccessStatusCode)
+                return HttpPolicyExtensions
+                    .HandleTransientHttpError()
                     .WaitAndRetryAsync(new[] {
                         TimeSpan.FromSeconds(1),
                         TimeSpan.FromSeconds(2),
@@ -45,9 +45,8 @@ namespace CurrencyConverter.Api
 
             static IAsyncPolicy<HttpResponseMessage> GetCircuitBreakerPolicy()
             {
-                return Policy<HttpResponseMessage>
-                    .Handle<HttpRequestException>()
-                    .OrResult(msg => !msg.IsSuccessStatusCode)
+                return HttpPolicyExtensions
+                    .HandleTransientHttpError()
                     .CircuitBreakerAsync(2, TimeSpan.FromSeconds(30));
             }
 
@@ -55,7 +54,9 @@ namespace CurrencyConverter.Api
             {
                 client.BaseAddress = new Uri("https://api.frankfurter.app/");
                 client.Timeout = TimeSpan.FromSeconds(10);
-            });
+            })
+            .AddPolicyHandler(GetRetryPolicy())
+            .AddPolicyHandler(GetCircuitBreakerPolicy());
 
             services.AddScoped<IExchangeRateProvider>(sp => sp.GetRequiredService<FrankfurterProvider>());
 

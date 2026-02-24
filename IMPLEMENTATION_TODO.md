@@ -20,7 +20,7 @@ Core backend wiring
 
 - [x] **Wire DI registrations and service registration:** register `ICurrencyService` → `CurrencyService`, `IExchangeRateProvider`/`FrankfurterProvider`, `TokenService`, and `ExchangeRateDbContext` in `StartupExtensions` and call from `Program.cs`.
 - [x] **Configure JWT auth and RBAC:** implement `AddAuth` to configure `JwtBearer` using `JwtSettings` from `appsettings.json`; add role-based policy and protect endpoints. (JWT middleware wired; RBAC policy enforcement to be applied per-endpoint)
-- [ ] **Register HttpClient + Polly:** configure named `HttpClient` for Frankfurter with retry (exponential backoff + jitter) and circuit-breaker policies. (HttpClient registered; Polly resilience wiring planned)
+- [x] **Register HttpClient + Polly:** configure named `HttpClient` for Frankfurter with retry (exponential backoff + jitter) and circuit-breaker policies.
 - [ ] **Implement provider factory & provider DI:** ensure `ExchangeRateProviderFactory` can produce providers; register `FrankfurterProvider` and allow future providers.
 - [ ] **Implement caching:** EF Core-backed cache (`ExchangeRateCache`) + short-lived in-memory TTL caching for latest rates; cache fallback on provider failures.
 - [ ] **Finish controllers to use services:** update `CurrencyController` to call `ICurrencyService` for `latest`, `convert`, `historical` (with pagination) and keep excluded-currencies validation.
