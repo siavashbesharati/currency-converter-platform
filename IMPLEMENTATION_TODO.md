@@ -4,6 +4,18 @@ This file captures the implementation-phase tasks derived from the project promp
 
 - [x] Create implementation TODO file
 
+## Implemented (detected in codebase)
+
+- [x] Backend bootstrap: `Program.cs` (Serilog configured, controllers wired)
+- [x] Controllers: `CurrencyController.cs`, `AuthController.cs` (endpoints + excluded-currency checks)
+- [x] Auth helpers: `TokenService.cs`, `JwtSettings.cs`, and `appsettings.json` (JWT settings present)
+- [x] Service & provider: `ICurrencyService`, `CurrencyService.cs`, `IExchangeRateProvider`, `FrankfurterProvider.cs`
+- [x] Provider factory: `ExchangeRateProviderFactory.cs` (returns Frankfurter provider)
+- [x] Persistence model: `ExchangeRateDbContext.cs` (cache entity defined)
+- [x] Frontend scaffold: `client/package.json`, `client/src/*` (React + Vite files present)
+- [x] Project plan & CI: `.github/prompts/plan-currencyConverterPlan.prompt.md`, `.github/workflows/ci.yml`
+
+
 Core backend wiring
 
 - [ ] **Wire DI registrations and service registration:** register `ICurrencyService` → `CurrencyService`, `IExchangeRateProvider`/`FrankfurterProvider`, `TokenService`, and `ExchangeRateDbContext` in `StartupExtensions` and call from `Program.cs`.
