@@ -31,6 +31,7 @@ namespace CurrencyConverter.Api
 
         public static IServiceCollection AddInfrastructure(this IServiceCollection services, IConfiguration configuration)
         {
+            services.AddHttpContextAccessor();
             services.AddMemoryCache();
             // DbContext (SQLite by default)
             var conn = configuration.GetConnectionString("DefaultConnection") ?? "Data Source=currency.db";

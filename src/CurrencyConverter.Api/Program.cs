@@ -9,10 +9,15 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.RateLimiting;
 using System.Threading.RateLimiting;
 
+using CurrencyConverter.Api.Middleware;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Configure Serilog
-builder.Host.UseSerilog((ctx, lc) => lc.WriteTo.Console());
+builder.Host.UseSerilog((ctx, lc) => lc
+    .ReadFrom.Configuration(ctx.Configuration)
+    .WriteTo.Console()
+    .WriteTo.File("logs/log-.txt", rollingInterval: RollingInterval.Day));
 
 // Add services (implemented in StartupExtensions)
 builder.Services.AddControllers();
@@ -47,6 +52,7 @@ var app = builder.Build();
         // Swagger not configured (Swashbuckle not referenced). Add if desired.
     }
 
+app.UseMiddleware<CorrelationIdMiddleware>();
 app.UseRateLimiter();
 
 app.UseRouting();

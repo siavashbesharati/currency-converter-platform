@@ -686,15 +686,15 @@
           }
         }
       },
-      "Serilog/2.12.0": {
+      "Serilog/4.2.0": {
         "type": "package",
         "compile": {
-          "lib/net6.0/Serilog.dll": {
+          "lib/net8.0/Serilog.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net6.0/Serilog.dll": {
+          "lib/net8.0/Serilog.dll": {
             "related": ".xml"
           }
         }
@@ -797,18 +797,18 @@
           }
         }
       },
-      "Serilog.Sinks.Console/4.0.1": {
+      "Serilog.Sinks.Console/6.1.1": {
         "type": "package",
         "dependencies": {
-          "Serilog": "2.10.0"
+          "Serilog": "4.0.0"
         },
         "compile": {
-          "lib/net5.0/Serilog.Sinks.Console.dll": {
+          "lib/net8.0/Serilog.Sinks.Console.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net5.0/Serilog.Sinks.Console.dll": {
+          "lib/net8.0/Serilog.Sinks.Console.dll": {
             "related": ".xml"
           }
         }
@@ -829,19 +829,19 @@
           }
         }
       },
-      "Serilog.Sinks.File/5.0.0": {
+      "Serilog.Sinks.File/7.0.0": {
         "type": "package",
         "dependencies": {
-          "Serilog": "2.10.0"
+          "Serilog": "4.2.0"
         },
         "compile": {
-          "lib/net5.0/Serilog.Sinks.File.dll": {
-            "related": ".pdb;.xml"
+          "lib/net8.0/Serilog.Sinks.File.dll": {
+            "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net5.0/Serilog.Sinks.File.dll": {
-            "related": ".pdb;.xml"
+          "lib/net8.0/Serilog.Sinks.File.dll": {
+            "related": ".xml"
           }
         }
       },
@@ -2046,33 +2046,28 @@
         "polly.extensions.http.nuspec"
       ]
     },
-    "Serilog/2.12.0": {
-      "sha512": "xaiJLIdu6rYMKfQMYUZgTy8YK7SMZjB4Yk50C/u//Z4OsvxkUfSPJy4nknfvwAC34yr13q7kcyh4grbwhSxyZg==",
+    "Serilog/4.2.0": {
+      "sha512": "gmoWVOvKgbME8TYR+gwMf7osROiWAURterc6Rt2dQyX7wtjZYpqFiA/pY6ztjGQKKV62GGCyOcmtP1UKMHgSmA==",
       "type": "package",
-      "path": "serilog/2.12.0",
+      "path": "serilog/4.2.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
+        "README.md",
         "icon.png",
-        "lib/net45/Serilog.dll",
-        "lib/net45/Serilog.xml",
-        "lib/net46/Serilog.dll",
-        "lib/net46/Serilog.xml",
-        "lib/net47/Serilog.dll",
-        "lib/net47/Serilog.xml",
-        "lib/net5.0/Serilog.dll",
-        "lib/net5.0/Serilog.xml",
+        "lib/net462/Serilog.dll",
+        "lib/net462/Serilog.xml",
+        "lib/net471/Serilog.dll",
+        "lib/net471/Serilog.xml",
         "lib/net6.0/Serilog.dll",
         "lib/net6.0/Serilog.xml",
-        "lib/netstandard1.0/Serilog.dll",
-        "lib/netstandard1.0/Serilog.xml",
-        "lib/netstandard1.3/Serilog.dll",
-        "lib/netstandard1.3/Serilog.xml",
+        "lib/net8.0/Serilog.dll",
+        "lib/net8.0/Serilog.xml",
+        "lib/net9.0/Serilog.dll",
+        "lib/net9.0/Serilog.xml",
         "lib/netstandard2.0/Serilog.dll",
         "lib/netstandard2.0/Serilog.xml",
-        "lib/netstandard2.1/Serilog.dll",
-        "lib/netstandard2.1/Serilog.xml",
-        "serilog.2.12.0.nupkg.sha512",
+        "serilog.4.2.0.nupkg.sha512",
         "serilog.nuspec"
       ]
     },
@@ -2180,23 +2175,26 @@
         "serilog.settings.configuration.nuspec"
       ]
     },
-    "Serilog.Sinks.Console/4.0.1": {
-      "sha512": "apLOvSJQLlIbKlbx+Y2UDHSP05kJsV7mou+fvJoRGs/iR+jC22r8cuFVMjjfVxz/AD4B2UCltFhE1naRLXwKNw==",
+    "Serilog.Sinks.Console/6.1.1": {
+      "sha512": "8jbqgjUyZlfCuSTaJk6lOca465OndqOz3KZP6Cryt/IqZYybyBu7GP0fE/AXBzrrQB3EBmQntBFAvMVz1COvAA==",
       "type": "package",
-      "path": "serilog.sinks.console/4.0.1",
+      "path": "serilog.sinks.console/6.1.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
+        "README.md",
         "icon.png",
-        "lib/net45/Serilog.Sinks.Console.dll",
-        "lib/net45/Serilog.Sinks.Console.xml",
-        "lib/net5.0/Serilog.Sinks.Console.dll",
-        "lib/net5.0/Serilog.Sinks.Console.xml",
-        "lib/netstandard1.3/Serilog.Sinks.Console.dll",
-        "lib/netstandard1.3/Serilog.Sinks.Console.xml",
+        "lib/net462/Serilog.Sinks.Console.dll",
+        "lib/net462/Serilog.Sinks.Console.xml",
+        "lib/net471/Serilog.Sinks.Console.dll",
+        "lib/net471/Serilog.Sinks.Console.xml",
+        "lib/net6.0/Serilog.Sinks.Console.dll",
+        "lib/net6.0/Serilog.Sinks.Console.xml",
+        "lib/net8.0/Serilog.Sinks.Console.dll",
+        "lib/net8.0/Serilog.Sinks.Console.xml",
         "lib/netstandard2.0/Serilog.Sinks.Console.dll",
         "lib/netstandard2.0/Serilog.Sinks.Console.xml",
-        "serilog.sinks.console.4.0.1.nupkg.sha512",
+        "serilog.sinks.console.6.1.1.nupkg.sha512",
         "serilog.sinks.console.nuspec"
       ]
     },
@@ -2222,30 +2220,28 @@
         "serilog.sinks.debug.nuspec"
       ]
     },
-    "Serilog.Sinks.File/5.0.0": {
-      "sha512": "uwV5hdhWPwUH1szhO8PJpFiahqXmzPzJT/sOijH/kFgUx+cyoDTMM8MHD0adw9+Iem6itoibbUXHYslzXsLEAg==",
+    "Serilog.Sinks.File/7.0.0": {
+      "sha512": "fKL7mXv7qaiNBUC71ssvn/dU0k9t0o45+qm2XgKAlSt19xF+ijjxyA3R6HmCgfKEKwfcfkwWjayuQtRueZFkYw==",
       "type": "package",
-      "path": "serilog.sinks.file/5.0.0",
+      "path": "serilog.sinks.file/7.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "images/icon.png",
-        "lib/net45/Serilog.Sinks.File.dll",
-        "lib/net45/Serilog.Sinks.File.pdb",
-        "lib/net45/Serilog.Sinks.File.xml",
-        "lib/net5.0/Serilog.Sinks.File.dll",
-        "lib/net5.0/Serilog.Sinks.File.pdb",
-        "lib/net5.0/Serilog.Sinks.File.xml",
-        "lib/netstandard1.3/Serilog.Sinks.File.dll",
-        "lib/netstandard1.3/Serilog.Sinks.File.pdb",
-        "lib/netstandard1.3/Serilog.Sinks.File.xml",
+        "README.md",
+        "lib/net462/Serilog.Sinks.File.dll",
+        "lib/net462/Serilog.Sinks.File.xml",
+        "lib/net471/Serilog.Sinks.File.dll",
+        "lib/net471/Serilog.Sinks.File.xml",
+        "lib/net6.0/Serilog.Sinks.File.dll",
+        "lib/net6.0/Serilog.Sinks.File.xml",
+        "lib/net8.0/Serilog.Sinks.File.dll",
+        "lib/net8.0/Serilog.Sinks.File.xml",
+        "lib/net9.0/Serilog.Sinks.File.dll",
+        "lib/net9.0/Serilog.Sinks.File.xml",
         "lib/netstandard2.0/Serilog.Sinks.File.dll",
-        "lib/netstandard2.0/Serilog.Sinks.File.pdb",
         "lib/netstandard2.0/Serilog.Sinks.File.xml",
-        "lib/netstandard2.1/Serilog.Sinks.File.dll",
-        "lib/netstandard2.1/Serilog.Sinks.File.pdb",
-        "lib/netstandard2.1/Serilog.Sinks.File.xml",
-        "serilog.sinks.file.5.0.0.nupkg.sha512",
+        "serilog-sink-nuget.png",
+        "serilog.sinks.file.7.0.0.nupkg.sha512",
         "serilog.sinks.file.nuspec"
       ]
     },
@@ -2554,7 +2550,9 @@
       "Microsoft.EntityFrameworkCore.Sqlite >= 8.0.0",
       "Microsoft.Extensions.Http.Polly >= 10.0.3",
       "Polly >= 8.0.0",
-      "Serilog.AspNetCore >= 7.0.0"
+      "Serilog.AspNetCore >= 7.0.0",
+      "Serilog.Sinks.Console >= 6.1.1",
+      "Serilog.Sinks.File >= 7.0.0"
     ]
   },
   "packageFolders": {
@@ -2633,6 +2631,14 @@
             "version": "[8.0.0, )"
           },
           "Serilog.AspNetCore": {
+            "target": "Package",
+            "version": "[7.0.0, )"
+          },
+          "Serilog.Sinks.Console": {
+            "target": "Package",
+            "version": "[6.1.1, )"
+          },
+          "Serilog.Sinks.File": {
             "target": "Package",
             "version": "[7.0.0, )"
           }
