@@ -59,7 +59,7 @@ namespace CurrencyConverter.Api
             services.AddHttpClient<FrankfurterProvider>(client =>
             {
                 client.BaseAddress = new Uri("https://api.frankfurter.app/");
-                client.Timeout = TimeSpan.FromSeconds(10);
+                client.Timeout = TimeSpan.FromSeconds(120);
             })
             .AddPolicyHandler(GetRetryPolicy())
             .AddPolicyHandler(GetCircuitBreakerPolicy());
