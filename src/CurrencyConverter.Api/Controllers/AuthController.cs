@@ -1,9 +1,14 @@
 using Microsoft.AspNetCore.Mvc;
+using CurrencyConverter.Api.Auth;
+
+using Microsoft.AspNetCore.RateLimiting;
 
 namespace CurrencyConverter.Api.Controllers
 {
     [ApiController]
-    [Route("api/v1/[controller]")]
+    [ApiVersion("1.0")]
+    [EnableRateLimiting("fixed")]
+    [Route("api/v{version:apiVersion}/[controller]")]
     public class AuthController : ControllerBase
     {
         private readonly TokenService _tokenService;
@@ -17,7 +22,7 @@ namespace CurrencyConverter.Api.Controllers
         public IActionResult Login([FromBody] LoginRequest req)
         {
             // Very simple in-memory validation for demo/interview
-            if (req.Username == "user" && req.Password == "password")
+            if (req.Username == "demo" && req.Password == "demo")
             {
                 var token = _tokenService.GenerateToken(req.Username, new[] { "User" });
                 return Ok(new { access_token = token });

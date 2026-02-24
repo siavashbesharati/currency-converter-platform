@@ -21,16 +21,23 @@ namespace CurrencyConverter.Api.Auth
         {
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_settings.Secret ?? "replace_me_long_secret"));
             var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
-            var claims = new[] { new Claim(ClaimTypes.Name, username) };
+                var claims = new List<Claim> { new Claim(ClaimTypes.Name, username) };
+                if (roles != null)
+                {
+                    foreach (var r in roles)
+                    {
+                        claims.Add(new Claim(ClaimTypes.Role, r));
+                    }
+                }
 
-            var token = new JwtSecurityToken(
-                issuer: _settings.Issuer,
-                audience: _settings.Audience,
-                claims: claims,
-                expires: DateTime.UtcNow.AddMinutes(_settings.ExpiresMinutes),
-                signingCredentials: creds);
+                var token = new JwtSecurityToken(
+                    issuer: _settings.Issuer,
+                    audience: _settings.Audience,
+                    claims: claims,
+                    expires: DateTime.UtcNow.AddMinutes(_settings.ExpiresMinutes),
+                    signingCredentials: creds);
 
-            return new JwtSecurityTokenHandler().WriteToken(token);
+                return new JwtSecurityTokenHandler().WriteToken(token);
         }
     }
 }
