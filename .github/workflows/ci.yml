@@ -1,0 +1,29 @@
+name: CI
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Build backend
+        run: dotnet build src/CurrencyConverter.Api/CurrencyConverter.Api.csproj --configuration Release
+      - name: Run backend tests
+        run: dotnet test --no-build
+      - name: Install frontend deps
+        run: |
+          cd client
+          npm ci
+      - name: Frontend tests
+        run: |
+          cd client
+          npm test
