@@ -84,7 +84,14 @@ This project was developed with the assistance of an AI-powered coding assistant
 - **Testing:** The assistant helped with writing both unit and integration tests.
 - **Dockerfile and CI/CD:** The assistant generated the Dockerfiles and the initial CI/CD pipeline.
 
-While the assistant was a valuable tool, all of the code was reviewed and approved by a human developer. The assistant's suggestions were not always accepted blindly, and in many cases, the code was refactored or rewritten to better fit the project's needs.
+
+
+**AI Usage :**
+- **How AI was used:** Design suggestions, iterative refactoring, test-case generation, policy and resilience wiring (Polly), middleware and observability code snippets, and small UI changes and loading states in the React client.
+- **Decisions validated or changed manually:** All architecture decisions (service boundaries, caching strategy, resilience parameters such as retry/circuit thresholds), security choices (JWT claims and RBAC usage), and final code structure were reviewed and adjusted by my self as developer . Tests produced by AI were reviewed and modified where necessary.
+- **Not blindly accepted from AI:** I did not accept AI suggestions without review — every code change was validated, often rewritten for clarity, and run through the test-suite locally. The final implementation uses human-reviewed code and tests.
+
+
 
 ## Future Improvements
 
@@ -93,3 +100,13 @@ While the assistant was a valuable tool, all of the code was reviewed and approv
 - **Real-time Updates:** The frontend could be updated to provide real-time updates for the latest exchange rates.
 - **User Management:** A more robust user management system could be implemented, with features such as user registration and password recovery.
 - **Configuration:** The application could be made more configurable, for example, by allowing the cache expiration times to be set in the `appsettings.json` file.
+
+## Submission Notes (for evaluators)
+
+- This repository includes a backend API (`src/CurrencyConverter.Api`) and a frontend app (`client`).
+- Tests for the backend are located in `tests/CurrencyConverter.Api.Tests` and can be executed with:
+
+```powershell
+dotnet test tests\CurrencyConverter.Api.Tests\CurrencyConverter.Api.Tests.csproj --logger "console;verbosity=detailed"
+```
+
