@@ -29,10 +29,10 @@ Core backend wiring
 
 Frontend
 
-- [ ] **API client:** implement `client/src/api/ApiClient.ts` with auth token injection, correlation-id header propagation, and error handling.
-- [ ] **Converter page:** build `Converter.tsx` with amount/source/target, excluded-currency validation, loading states, and friendly errors.
-- [ ] **Latest rates view:** build rates UI for a selected base currency.
-- [ ] **Historical rates view:** date-range selector + paginated results; wire to backend pagination.
+- [x] **API client:** implement `client/src/api/ApiClient.ts` with auth token injection, correlation-id header propagation, and error handling.
+- [x] **Converter page:** build `Converter.tsx` with amount/source/target, excluded-currency validation, loading states, and friendly errors.
+- [x] **Latest rates view:** build rates UI for a selected base currency.
+- [x] **Historical rates view:** date-range selector + paginated results; wire to backend pagination.
 - [ ] **Type safety & tests:** use TypeScript types and add component tests for core flows.
 
 Testing & quality
