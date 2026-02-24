@@ -39,12 +39,12 @@ Testing & quality
 
 - [x] **Unit tests:** add xUnit unit tests targeting `CurrencyService`, provider parsing, and excluded-currency validation; aim for >= 90% coverage.
 - [x] **Integration tests:** mock Frankfurter (HttpMessageHandler or WireMock) to test end-to-end behavior.
-- [ ] **Coverage reports:** integrate coverlet and produce reports in CI.
+- [x] **Coverage reports:** integrate coverlet and produce reports in CI.
 
 DevOps & deployment
 
-- [ ] **Dockerfiles & compose:** add backend/frontend Dockerfiles and `docker-compose` for local dev (SQLite or Postgres service as option).
-- [ ] **CI workflow:** complete `.github/workflows/ci.yml` to build, test, and publish coverage artifacts.
+- [x] **Dockerfiles & compose:** add backend/frontend Dockerfiles and `docker-compose` for local dev (SQLite or Postgres service as option).
+- [x] **CI workflow:** complete `.github/workflows/ci.yml` to build, test, and publish coverage artifacts.
 - [ ] **Environment support:** add appsettings.*.json for Dev/Test/Prod and document env var overrides.
 - [ ] **Deployment guidance:** document horizontal scaling concerns, DB choice, and secrets management.
 

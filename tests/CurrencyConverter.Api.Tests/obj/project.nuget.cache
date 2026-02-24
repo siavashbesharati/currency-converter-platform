@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "QwaEaHhKX3E=",
+  "dgSpecHash": "iS6yWQocenw=",
   "success": true,
   "projectFilePath": "D:\\Interview\\currency-converter-platform\\tests\\CurrencyConverter.Api.Tests\\CurrencyConverter.Api.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MOHAMMAD\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
-    "C:\\Users\\MOHAMMAD\\.nuget\\packages\\coverlet.collector\\6.0.4\\coverlet.collector.6.0.4.nupkg.sha512",
+    "C:\\Users\\MOHAMMAD\\.nuget\\packages\\coverlet.collector\\8.0.0\\coverlet.collector.8.0.0.nupkg.sha512",
     "C:\\Users\\MOHAMMAD\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\8.0.0\\microsoft.aspnetcore.authentication.jwtbearer.8.0.0.nupkg.sha512",
     "C:\\Users\\MOHAMMAD\\.nuget\\packages\\microsoft.aspnetcore.mvc.testing\\10.0.3\\microsoft.aspnetcore.mvc.testing.10.0.3.nupkg.sha512",
     "C:\\Users\\MOHAMMAD\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning\\5.1.0\\microsoft.aspnetcore.mvc.versioning.5.1.0.nupkg.sha512",

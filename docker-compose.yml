@@ -1,0 +1,16 @@
+version: '3.4'
+
+services:
+  currencyconverter.api:
+    image: ${DOCKER_REGISTRY-}currencyconverterapi
+    build:
+      context: .
+      dockerfile: src/CurrencyConverter.Api/Dockerfile
+
+  currencyconverter.client:
+    image: ${DOCKER_REGISTRY-}currencyconverterclient
+    build:
+      context: .
+      dockerfile: client/Dockerfile
+    ports:
+      - "8080:80"
